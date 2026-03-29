@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 56" width="920" height="560">
+  <title>FS2 interior - Brussels sprouts (+ oregano TBD)</title>
+  <rect width="92" height="56" fill="#f8fafc"/>
+  <text x="46" y="7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="3.2" font-weight="bold" fill="#0f172a">FS2 full sun | Zone 2 | 6 ft x 3 ft interior (inches)</text>
+  <g id="bed-interior">
+    <rect x="10" y="10" width="72" height="36" fill="#e8d4c4" stroke="#44403c" stroke-width="0.5"/>
+    <text x="46" y="8.5" text-anchor="middle" font-family="Arial" font-size="2.2" fill="#57534e">N (fence)</text>
+  </g>
+  <g id="plants" font-family="Arial, Helvetica, sans-serif" font-size="2.8" font-weight="bold" fill="#14532d">
+    <circle cx="22" cy="28" r="3" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="22" y="29.2" text-anchor="middle" font-size="2">B</text>
+    <circle cx="38" cy="28" r="3" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="38" y="29.2" text-anchor="middle" font-size="2">B</text>
+    <circle cx="54" cy="28" r="3" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="54" y="29.2" text-anchor="middle" font-size="2">B</text>
+    <circle cx="70" cy="28" r="3" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="70" y="29.2" text-anchor="middle" font-size="2">B</text>
+    <text x="46" y="42" text-anchor="middle" font-size="2" fill="#64748b" font-weight="normal">Outdoor oregano: assign corner in layout (TBD)</text>
+  </g>
+  <g id="irrigation" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <text x="10" y="52" font-family="Arial" font-size="2.2" fill="#1d4ed8" font-weight="bold">1/4 in | Zone 2 timer | 1 GPH per Brussels</text>
+    <polyline points="12,12 78,12" stroke="#78350f" stroke-width="0.6"/>
+    <line x1="22" y1="12" x2="22" y2="25" stroke="#78350f" stroke-width="0.45"/>
+    <line x1="38" y1="12" x2="38" y2="25" stroke="#78350f" stroke-width="0.45"/>
+    <line x1="54" y1="12" x2="54" y2="25" stroke="#78350f" stroke-width="0.45"/>
+    <line x1="70" y1="12" x2="70" y2="25" stroke="#78350f" stroke-width="0.45"/>
+    <circle cx="12" cy="12" r="1.8" fill="#1d4ed8" stroke="#1e3a8a" stroke-width="0.3"/><text x="12" y="13.2" text-anchor="middle" font-size="1.6" fill="#fff" font-weight="bold">M</text>
+    <circle cx="22" cy="25" r="1.2" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="38" cy="25" r="1.2" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="54" cy="25" r="1.2" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="70" cy="25" r="1.2" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+  </g>
+</svg>

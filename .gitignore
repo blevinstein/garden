@@ -1,1 +1,4 @@
 .DS_Store
+
+# Raster previews generated for review (ImageMagick, etc.)
+**/layout/*-preview.png

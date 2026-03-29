@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 56" width="920" height="560">
+  <title>PS2 interior - kale + lemon balm</title>
+  <rect width="92" height="56" fill="#f8fafc"/>
+  <text x="46" y="7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="3.2" font-weight="bold" fill="#0f172a">PS2 partial sun | Zone 2 | 6 ft x 3 ft (inches)</text>
+  <g id="bed-interior">
+    <rect x="10" y="10" width="72" height="36" fill="#e8d4c4" stroke="#44403c" stroke-width="0.5"/>
+    <text x="46" y="8.5" text-anchor="middle" font-family="Arial" font-size="2.2" fill="#57534e">N (fence)</text>
+  </g>
+  <g id="plants" font-family="Arial, Helvetica, sans-serif" font-weight="bold">
+    <circle cx="24" cy="24" r="3.2" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="24" y="25.3" text-anchor="middle" font-size="2.2" fill="#14532d">K</text>
+    <circle cx="40" cy="24" r="3.2" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="40" y="25.3" text-anchor="middle" font-size="2.2" fill="#14532d">K</text>
+    <circle cx="56" cy="24" r="3.2" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="56" y="25.3" text-anchor="middle" font-size="2.2" fill="#14532d">K</text>
+    <circle cx="32" cy="32" r="3.2" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="32" y="33.3" text-anchor="middle" font-size="2.2" fill="#14532d">K</text>
+    <circle cx="48" cy="32" r="3.2" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="48" y="33.3" text-anchor="middle" font-size="2.2" fill="#14532d">K</text>
+    <circle cx="64" cy="32" r="3.2" fill="#bbf7d0" stroke="#166534" stroke-width="0.4"/><text x="64" y="33.3" text-anchor="middle" font-size="2.2" fill="#14532d">K</text>
+    <circle cx="22" cy="36" r="2.5" fill="#d9f99d" stroke="#4d7c0f" stroke-width="0.35"/><text x="22" y="37" text-anchor="middle" font-size="1.8" fill="#365314">Lb</text>
+    <circle cx="38" cy="36" r="2.5" fill="#d9f99d" stroke="#4d7c0f" stroke-width="0.35"/><text x="38" y="37" text-anchor="middle" font-size="1.8" fill="#365314">Lb</text>
+    <circle cx="54" cy="36" r="2.5" fill="#d9f99d" stroke="#4d7c0f" stroke-width="0.35"/><text x="54" y="37" text-anchor="middle" font-size="1.8" fill="#365314">Lb</text>
+    <text x="46" y="47" text-anchor="middle" font-size="1.8" fill="#64748b" font-weight="normal">6-8 kale + 2-3 lemon balm (schematic)</text>
+  </g>
+  <g id="irrigation" fill="none">
+    <text x="10" y="52" font-family="Arial" font-size="2" fill="#1d4ed8" font-weight="bold">Zone 2 | K 1 GPH | Lb 1/2 GPH | lower rate vs FS boxes (PLAN)</text>
+    <polyline points="12,12 78,12" stroke="#78350f" stroke-width="0.6"/>
+    <line x1="24" y1="12" x2="24" y2="21" stroke="#78350f" stroke-width="0.4"/><line x1="40" y1="12" x2="40" y2="21" stroke="#78350f" stroke-width="0.4"/><line x1="56" y1="12" x2="56" y2="21" stroke="#78350f" stroke-width="0.4"/>
+    <line x1="32" y1="12" x2="32" y2="29" stroke="#78350f" stroke-width="0.4"/><line x1="48" y1="12" x2="48" y2="29" stroke="#78350f" stroke-width="0.4"/><line x1="64" y1="12" x2="64" y2="29" stroke="#78350f" stroke-width="0.4"/>
+    <line x1="22" y1="12" x2="22" y2="33.5" stroke="#78350f" stroke-width="0.4"/><line x1="38" y1="12" x2="38" y2="33.5" stroke="#78350f" stroke-width="0.4"/><line x1="54" y1="12" x2="54" y2="33.5" stroke="#78350f" stroke-width="0.4"/>
+    <circle cx="12" cy="12" r="1.8" fill="#1d4ed8" stroke="#1e3a8a" stroke-width="0.3"/><text x="12" y="13.2" text-anchor="middle" font-size="1.6" fill="#fff" font-weight="bold">M</text>
+    <circle cx="24" cy="21" r="1.1" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="40" cy="21" r="1.1" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="56" cy="21" r="1.1" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="32" cy="29" r="1.1" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="48" cy="29" r="1.1" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="64" cy="29" r="1.1" fill="#0ea5e9" stroke="#0369a1" stroke-width="0.25"/>
+    <circle cx="22" cy="33.5" r="0.85" fill="#67e8f9" stroke="#0891b2" stroke-width="0.2"/>
+    <circle cx="38" cy="33.5" r="0.85" fill="#67e8f9" stroke="#0891b2" stroke-width="0.2"/>
+    <circle cx="54" cy="33.5" r="0.85" fill="#67e8f9" stroke="#0891b2" stroke-width="0.2"/>
+  </g>
+</svg>

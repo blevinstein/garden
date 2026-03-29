@@ -9,7 +9,7 @@ Align emitter counts and run minutes with your timers when you program them; thi
 | Zone | Area | Emitter rate | Interval | Run-time note |
 |------|------|--------------|----------|----------------|
 | **1** | Greenhouse (`greenhouse`) | 1–2 GPH per plant | Daily or near-daily (peak summer) | Set duration so soil stays evenly moist for tomatoes/peppers; sweet potatoes need coverage without constant sogginess |
-| **2** | All four raised boxes | 1 GPH most plants; **½ GPH** onions + lemon balm | Every 2–3 days | Use **lower GPH in partial-sun boxes 3–4** than in full-sun boxes 1–2 (same zone, slower drying in 3–4) |
+| **2** | All four raised boxes | 1 GPH most plants; **½ GPH** onions + lemon balm | Every 2–3 days | Use **lower GPH in PS1–PS2** than in **FS1–FS2** (same zone, slower drying in partial sun) |
 | **3** | Peach (`backyard-peach`), cherry (`backyard-cherry`) | **2 GPH**, spread for root zone | Every **4–5 days** | **Longer runs** — deep, infrequent water for young woody plants |
 
 **Compost bin:** On drip; match run schedule to whichever timer/circuit you wire it to — document on the layout legend when fixed.
@@ -20,8 +20,8 @@ Align emitter counts and run minutes with your timers when you program them; thi
 
 | Bed | Priority | Typical window (adjust after frost dates) |
 |-----|----------|-------------------------------------------|
-| `bed-ps4` | Highest | Late March–mid-May |
-| `bed-ps3` | High | April–mid-May |
+| `bed-ps1` | Highest | Late March–mid-May |
+| `bed-ps2` | High | April–mid-May |
 | `bed-fs2` | Optional | Early spring if used |
 
 ## By location
@@ -45,14 +45,21 @@ Align emitter counts and run minutes with your timers when you program them; thi
 
 - Fall crop: plant mid-June–mid-July (direct sow or transplant per your choice).
 
-### `bed-ps3` — kale, lemon balm
+### `bed-ps2` — kale, lemon balm
 
 - Kale: pick leaves to prolong harvest; cover in spring per plan.  
 - Lemon balm: can spread; contain or harvest aggressively if it crowds kale.
 
-### `bed-ps4` — strawberries
+### `bed-ps1` — strawberries
 
 - Mulch, renovation, and runner management TBD by type (June-bearing vs everbearing, etc.).
+
+### Landscape (`yard-nook`, `yard-south`, `yard-ne-house`, `yard-south-house`)
+
+- **Rhododendron:** afternoon shade and wind protection help on the Front Range; consistent moisture, well-drained soil.  
+- **Russian sage:** very drought-tolerant once established; avoid over-watering vs. nearby lawn or drip mistakes.  
+- **Hops:** vigorous vines — strong support, annual cutback; water during establishment.  
+- **South-wall flowers:** hand water or separate micro-drip if added later; not on vegetable drip zones unless you design a circuit.
 
 ### Indoor herbs (`indoor`)
 

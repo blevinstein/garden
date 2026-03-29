@@ -7,6 +7,12 @@
 | Git remote | `https://github.com/blevinstein/garden` |
 | Default clone location | `~/dev/garden` |
 
+## Soil test (`SOIL.md` at repo root)
+
+- **Location:** `SOIL.md` in the **repository root** (not under `<YYYY>/`).
+- **Purpose:** Long-lived reference to lab results (typically years apart, not every season). Each season’s `PLAN.md` should link to it with a relative path: [`SOIL.md`](../SOIL.md) from inside `<YYYY>/`.
+- **If you re-test:** Update the root file in place (or replace with a dated archive + new summary—your choice), rather than copying soil data into each year folder.
+
 ## Per-season layout (`<YYYY>/`)
 
 All season content lives under **`<YYYY>/`** where `<YYYY>` is the calendar year for that growing season.
@@ -19,8 +25,8 @@ All season content lives under **`<YYYY>/`** where `<YYYY>` is the calendar year
   SCHEDULE.md       # Rolling ~3-month task schedule (regenerated; dated header)
   layout/
     README.md       # Units, north arrow policy, how files relate (optional but recommended)
-    beds.svg        # Primary planting diagram (name may vary, e.g. site.svg)
-    beds-legend.md  # Letter/symbol → plant name (and variety if needed)
+    interior-*.svg  # One SVG per raised bed + greenhouse: interior dims, plants, drip (¼″ + emitters)
+    beds-legend.md  # Symbol → plant; drip line styles, emitter legend, timer/zone notes
   sketches/
     ...             # Raster sketches (PNG/JPG); source for tracing into SVG; do not delete
 ```
@@ -36,16 +42,16 @@ Should state or link:
 - Hardiness zone and **last spring / first fall frost** (source and dates)
 - Property constraints (sun, water, time budget, organic/synthetic preferences)
 - Infrastructure: trellises, row cover, irrigation
-- Which layout file is canonical (`layout/beds.svg`, etc.)
+- Which layout files are canonical (`layout/interior-*.svg` + `beds-legend.md`; no whole-lot SVG required)
 - Open questions and decisions log (dated bullets are fine)
 
 ## Layout (`layout/` + `sketches/`)
 
 - **Sketches:** User-supplied rasters in `sketches/` are the visual reference; preserve them. Sketches may be **bed/planting only**, **drip/tubing only**, or **combined** (tubing is often planned per bed before planting).
-- **SVG:** Draw beds at **true interior dimensions** (one unit per season: inches or cm—state in `layout/README.md` or `PLAN.md`).
+- **SVG:** Each file is **one enclosure** (one raised bed interior or greenhouse floor) at **true interior dimensions** (inches or cm—state in `layout/README.md` or `PLAN.md`).
 - **Letters/symbols:** Use a short code per plant type in the diagram; define codes in `beds-legend.md`.
-- **Bed placement on the canvas** may be approximate; **spacing inside each bed** should match the plan (rows, in-row spacing, counts).
-- Group each bed in SVG with a stable `id` (e.g. `bed-a`, `bed-raised-1`).
+- **Spacing inside each bed** should match the plan (rows, in-row spacing, counts). Lot position is optional sketch-only.
+- Use stable group `id`s (e.g. `<g id="plants">`, `<g id="irrigation">` per file).
 
 ### Drip irrigation (diagram)
 
