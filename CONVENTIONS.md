@@ -1,5 +1,12 @@
 # Repository conventions
 
+## Repository paths
+
+| Item | Value |
+|------|--------|
+| Git remote | `https://github.com/blevinstein/garden` |
+| Default clone location | `~/dev/garden` |
+
 ## Per-season layout (`<YYYY>/`)
 
 All season content lives under **`<YYYY>/`** where `<YYYY>` is the calendar year for that growing season.
@@ -34,11 +41,17 @@ Should state or link:
 
 ## Layout (`layout/` + `sketches/`)
 
-- **Sketches:** User-supplied rasters in `sketches/` are the visual reference; preserve them.
+- **Sketches:** User-supplied rasters in `sketches/` are the visual reference; preserve them. Sketches may be **bed/planting only**, **drip/tubing only**, or **combined** (tubing is often planned per bed before planting).
 - **SVG:** Draw beds at **true interior dimensions** (one unit per season: inches or cm—state in `layout/README.md` or `PLAN.md`).
 - **Letters/symbols:** Use a short code per plant type in the diagram; define codes in `beds-legend.md`.
 - **Bed placement on the canvas** may be approximate; **spacing inside each bed** should match the plan (rows, in-row spacing, counts).
 - Group each bed in SVG with a stable `id` (e.g. `bed-a`, `bed-raised-1`).
+
+### Drip irrigation (diagram)
+
+- **Hardware assumption:** **1/4 inch** drip tubing to most beds; **one emitter at each plant base** (or each planned plant position). **Multiple timers** run separate circuits—diagrams should show **which timer feeds which bed or zone** (stroke color or dash pattern per circuit, plus labels).
+- **SVG structure:** Keep plants and irrigation in **separate groups** (e.g. beds/plants vs `<g id="irrigation">`). Tubing may be **schematic** (readable polylines; not literal 1/4" line width). Emitter positions align with plant markers.
+- **Legend:** Extend `beds-legend.md` with a **Drip / irrigation** subsection (line styles, emitter symbol, timer names). Optional **timer → beds** table in the legend if the SVG is busy.
 
 ## Schedule (`SCHEDULE.md`)
 
