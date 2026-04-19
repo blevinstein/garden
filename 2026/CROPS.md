@@ -17,7 +17,7 @@ Irrigation zone numbers below refer to the named zones in [`PLAN.md`](PLAN.md#ir
 | Jalapeño | — | 1 | `greenhouse` | 4 | Daily drip |
 | Sweet potato | — | 3 | `greenhouse` | 4 | Spreading; shares 24 sq ft with above |
 | Rosemary | — | 1 | `bed-fs1` | 3 | **Uncovered** bed — overwintering strategy TBD |
-| Onion (FS1) | — | 35 bulbs | `bed-fs1` | 3 | Full-bed planting with rosemary |
+| Onion (FS1) | — | 37 bulbs | `bed-fs1` | 3 | Full-bed planting with rosemary (7×5 core grid + 2 extras — see `layout/interior-fs1.md`) |
 | Brussels sprout | — | 4 | `bed-fs2` | 3 | Plant mid-June–mid-July for fall harvest |
 | Onion (FS2) | — | 10 bulbs | `bed-fs2` | 3 | Shares FS2 with Brussels sprouts |
 | Kale | — | 6 | `bed-ps2` | 3 | Row cover in-season |
@@ -48,7 +48,7 @@ Irrigation zone numbers below refer to the named zones in [`PLAN.md`](PLAN.md#ir
 | `front-right` | Front yard right — trellis / fence (wildflowers + vining crops); **Zone 5** |
 | `front-misc` | Front yard landscape — Russian sage, English oak, Mormon tea |
 | `greenhouse` | 6 × 4 ft greenhouse — **NW of house**, north row; **Zone 4** (daily) |
-| `bed-fs1` | Full sun **FS1** (east of GH) — rosemary + 35 onions; **uncovered**; **Zone 3** |
+| `bed-fs1` | Full sun **FS1** (east of GH) — rosemary + 37 onions; **uncovered**; **Zone 3** |
 | `bed-fs2` | Full sun **FS2** (west end of north row) — Brussels sprouts + 10 onions; **covered**; **Zone 3** |
 | `bed-ps2` | Partial sun **PS2** — kale + lemon balm; **covered**; **Zone 3** |
 | `bed-ps1` | Partial sun **PS1** — strawberries; **covered**; **Zone 3** |

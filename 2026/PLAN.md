@@ -1,10 +1,8 @@
 # 2026 garden plan
 
-Plan of record for the 2026 growing season. **Canonical layout:** **interior** SVGs in [`layout/`](layout/) (one file per raised bed + greenhouse) with drip schematics; legend [`layout/beds-legend.md`](layout/beds-legend.md). Lot context: [`sketches/`](sketches/) only.
+Plan of record for the 2026 growing season. **Canonical layout:** **interior** ASCII diagrams in [`layout/`](layout/) (one file per raised bed + greenhouse) on a 6" grid; legend [`layout/beds-legend.md`](layout/beds-legend.md). Lot context: [`sketches/`](sketches/) only.
 
 **Location:** Denver, Colorado (Front Range).
-
-> **Layout sync note (2026-04-18):** The plant lists and irrigation zones below were updated to match what was actually planted this year. The per-bed SVGs in [`layout/`](layout/) and [`layout/beds-legend.md`](layout/beds-legend.md) still reflect the earlier plan and will be re-synced in a later pass.
 
 ## Zone and frost
 
@@ -20,7 +18,7 @@ Lab-style results (organic matter, pH, major nutrients) are in [`SOIL.md`](../SO
 
 ## Bed and structure inventory
 
-**North fence, west → east** (see `layout-sketch.jpg`): **FS2** — **Greenhouse** — **FS1** — **PS2** — **PS1**. The **greenhouse** sits **northwest of the house** (north property line, west of the house’s center). **Inside each box / GH:** [`layout/interior-*.svg`](layout/). Earlier “box 3 / box 4” = **PS2** and **PS1**.
+**North fence, west → east** (see `layout-sketch.jpg`): **FS2** — **Greenhouse** — **FS1** — **PS2** — **PS1**. The **greenhouse** sits **northwest of the house** (north property line, west of the house’s center). **Inside each box / GH:** [`layout/interior-*.md`](layout/). Earlier “box 3 / box 4” = **PS2** and **PS1**.
 
 All raised boxes and the greenhouse are **irrigated** (box drip + greenhouse drip — see [Irrigation zones](#irrigation-zones)).
 
@@ -45,10 +43,10 @@ All raised boxes are **6 ft × 3 ft** unless noted otherwise.
 
 ## Front yard — left (irrigated)
 
-On the front yard left irrigation zone (trellis / fence — full sun):
+On the front yard left irrigation zone (trellis — full sun):
 
-- **Hops** — perennial, trellised on fence  
-- **Peas** — trellised; variety TBD  
+- **Hops** — perennial, trellised
+- **Snow Peas** — trellised 
 
 ## Front yard — right (irrigated)
 
@@ -70,7 +68,7 @@ Not on the vegetable drip circuits:
 ## Back yard — misc (landscape)
 
 - **Lavender** — not irrigated (drought-tolerant once established)  
-- **Rhododendron** — irrigated (garage–patio nook; likely via yard sprinklers — confirm)  
+- **Rhododendron** — irrigated (garage–patio nook; irrigated via yard sprinklers)  
 - **Cherry bush** — irrigated (back yard trees zone)  
 - **Peach tree** — irrigated (back yard trees zone)  
 
@@ -94,7 +92,7 @@ Basil, peppermint, cilantro, parsley, thyme, oregano, sage, cumin, dill.
 ### Full sun box FS1 (uncovered)
 
 - **Rosemary** — 1 plant (perennial; evaluate winter survival in an uncovered bed)  
-- **Onions** — 35 bulbs (full-bed planting)  
+- **Onions** — 37 bulbs (full-bed planting — 7×5 core grid + 2 extras)  
 
 ### Full sun box FS2 (covered)
 
@@ -118,7 +116,7 @@ Six irrigation zones, all running in the early morning. Sunday/Wednesday schedul
 |---|------|--------|------|---------------|
 | 1 | Yard sprinklers | 3:00 – 5:00 am | Sun / Wed | Lawn and landscape — includes **English oak** and (assumed) **rhododendron** |
 | 2 | Back yard trees | 5:00 – 5:30 am | Sun / Wed | **Peach tree**, **cherry bush** |
-| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | FS1 (rosemary, 35 onions); FS2 (4 Brussels, 10 onions); PS2 (kale, lemon balm); PS1 (6 strawberries) |
+| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | FS1 (rosemary, 37 onions); FS2 (4 Brussels, 10 onions); PS2 (kale, lemon balm); PS1 (6 strawberries) |
 | 4 | Greenhouse | 6:00 – 6:30 am | **Daily** | Cherry tomato, 3 bell peppers, jalapeño, 3 sweet potatoes |
 | 5 | Front yard — right | 6:30 – 7:00 am | Sun / Wed | Wildflowers, cucumbers, spaghetti squash, morning glory |
 | 6 | Front yard — left | 7:00 – 7:30 am | Sun / Wed | Hops, peas |
@@ -129,9 +127,9 @@ Run-time tuning, emitter rates, and per-plant GPH targets live in [`CARE.md`](CA
 
 ## Infrastructure
 
-- **Trellising / fence:** front yard right (cucumbers, morning glory, spaghetti squash), front yard left (hops, peas).  
+- **Trellising:** front yard right (cucumbers, morning glory, spaghetti squash), front yard left (hops, peas).  
 - **Row cover:** **FS2**, **PS2**, and **PS1** are covered; **FS1** is uncovered. Typical Front Range cover windows are in [`CARE.md`](CARE.md).  
-- **Drip irrigation:** Six zones scheduled above. The per-bed interior SVGs (`layout/interior-*.svg`) still show the old Zone 1–2 scheme and will be re-synced later.  
+- **Drip irrigation:** Six zones scheduled above. Per-bed ASCII diagrams in [`layout/interior-*.md`](layout/) show plant positions on a 6" grid; tubing and emitter placement live in this doc and [`CARE.md`](CARE.md) rather than in the layouts.  
 
 ## Decisions log
 
@@ -139,8 +137,9 @@ Run-time tuning, emitter rates, and per-plant GPH targets live in [`CARE.md`](CA
 - **2026-03-28:** Location set to Denver, CO; Front Range frost ballpark and Extension links recorded in **Zone and frost**; soil test numbers referenced at repo root [`SOIL.md`](../SOIL.md).  
 - **2026-03-28:** Indoor herbs under grow lights; back-yard peach, cherry (2025 transplants), compost on drip; draft drip Zones 1–3 recorded.  
 - **2026-03-29:** Sketch + satellite aligned: north row **FS2–GH–FS1–PS2–PS1**; partial beds relabeled **PS1** / **PS2**; rhododendron, Russian sage, hops, south-wall flowers added; layout docs started.  
-- **2026-03-29:** Dropped whole-property `beds.svg`; **interior-only** SVGs per bed + greenhouse with drip layers (`interior-*.svg`).  
-- **2026-04-18:** Reconciled plan with what was actually planted. **Added:** peas (front left), wildflowers (front right), rosemary (FS1), English oak and Mormon tea (front misc), lavender (back misc), onions in FS2 (10 bulbs). **Removed / changed:** green onions dropped; outdoor oregano dropped (indoor only); hops relocated from NE side of house to **front yard left**; south-wall ornamental flowers dropped in favor of wildflowers in front yard right. **Counts:** strawberries 6, kale 6, lemon balm 1–2, Brussels 4, FS1 onions 35, FS2 onions 10, bell peppers 3, sweet potatoes 3. **Covers:** FS1 uncovered; FS2, PS1, PS2 covered. **Irrigation:** replaced draft Zone 1–3 scheme with six named zones (yard sprinklers; back yard trees; boxes; greenhouse; front right; front left) on a 3:00–7:30 am schedule, Sun/Wed except greenhouse daily.  
+- **2026-03-29:** Dropped whole-property `beds.svg`; **interior-only** per-bed + greenhouse diagrams (initially SVG with drip layers, later migrated to ASCII — see 2026-04-19).  
+- **2026-04-18:** Reconciled plan with what was actually planted. **Added:** peas (front left), wildflowers (front right), rosemary (FS1), English oak and Mormon tea (front misc), lavender (back misc), onions in FS2 (10 bulbs). **Removed / changed:** green onions dropped; outdoor oregano dropped (indoor only); hops relocated from NE side of house to **front yard left**; south-wall ornamental flowers dropped in favor of wildflowers in front yard right. **Counts:** strawberries 6, kale 6, lemon balm 1–2, Brussels 4, FS1 onions 37, FS2 onions 10, bell peppers 3, sweet potatoes 3. **Covers:** FS1 uncovered; FS2, PS1, PS2 covered. **Irrigation:** replaced draft Zone 1–3 scheme with six named zones (yard sprinklers; back yard trees; boxes; greenhouse; front right; front left) on a 3:00–7:30 am schedule, Sun/Wed except greenhouse daily.  
+- **2026-04-19:** Migrated per-bed layouts from SVG to ASCII (6" grid). Per-bed plant positions are now in [`layout/interior-*.md`](layout/); SVGs and `beds-preview.png` removed. Drip tubing/emitter geometry is no longer stored in layouts — it lives here in `PLAN.md` and in [`CARE.md`](CARE.md).  
 
 ## Open questions
 

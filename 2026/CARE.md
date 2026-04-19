@@ -10,12 +10,15 @@ Six zones on a morning schedule. All zones run Sunday and Wednesday except the g
 |---|------|--------|------|---------------|--------------------------|
 | 1 | Yard sprinklers | 3:00 – 5:00 am | Sun / Wed | Lawn + landscape; includes **English oak** and (assumed) **rhododendron** | Overhead sprinklers; run time per lawn needs — longest of the six windows |
 | 2 | Back yard trees | 5:00 – 5:30 am | Sun / Wed | **Peach tree**, **cherry bush** | **2 GPH** per tree, placed to cover a wider root zone; deep, infrequent watering (young 2025 transplants) |
-| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | **FS1** (rosemary + 35 onions), **FS2** (4 Brussels + 10 onions), **PS2** (kale + lemon balm), **PS1** (6 strawberries) | **1 GPH** for most plants; **½ GPH** for onions and lemon balm. PS beds dry more slowly than FS — use somewhat lower GPH in PS1 / PS2 to compensate |
+| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | **FS1** (rosemary + 37 onions), **FS2** (4 Brussels + 10 onions), **PS2** (kale + lemon balm), **PS1** (6 strawberries) | **1 GPH** for most plants; **½ GPH** for onions and lemon balm. PS beds dry more slowly than FS — use somewhat lower GPH in PS1 / PS2 to compensate |
 | 4 | Greenhouse | 6:00 – 6:30 am | **Daily** | Cherry tomato, 3 bell peppers, jalapeño, 3 sweet potatoes | **1–2 GPH** per plant; tune run time so soil stays evenly moist for tomatoes/peppers without sogginess around sweet potato roots |
 | 5 | Front yard — right | 6:30 – 7:00 am | Sun / Wed | Wildflowers, cucumbers, spaghetti squash, morning glory | Trellised vining crops — emitter at base of each vine; wildflower strip can share lower-GPH emitters once established |
 | 6 | Front yard — left | 7:00 – 7:30 am | Sun / Wed | Hops, peas | Hops are vigorous perennials — higher GPH during establishment; peas prefer steady moisture during pod fill |
 
 **Not on any zone:** **Russian sage**, **Mormon tea**, **lavender** (dryland / drought-tolerant once established); **indoor herbs** (hand watered under grow lights).
+
+**Compost bin:** On drip; same zone as the boxes.
+
 
 ## Row cover
 
@@ -67,7 +70,7 @@ FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
 ### `bed-fs1` — rosemary, onions (uncovered)
 
 - **Rosemary:** uncovered bed — not reliably hardy outdoors on the Front Range. Decide before first hard freeze whether to mulch heavily, dig and pot for indoor overwintering, or treat as an annual.  
-- **Onions (35):** full-bed spacing per variety; keep moist through bulb formation, taper watering as tops fall over.
+- **Onions (37):** full-bed spacing per variety; keep moist through bulb formation, taper watering as tops fall over.
 
 ### `bed-fs2` — Brussels sprouts, onions (covered)
 

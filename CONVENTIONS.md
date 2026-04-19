@@ -20,15 +20,15 @@ All season content lives under **`<YYYY>/`** where `<YYYY>` is the calendar year
 ```
 <YYYY>/
   PLAN.md           # Plan of record: goals, constraints, frost/zone, infrastructure, decisions
-  CROPS.md          # Crop list: variety, quantity, seeds vs starts, bed assignment, spacing notes
+  CROPS.md          # Crop list: variety, quantity, bed assignment, spacing notes
   CARE.md           # Water, fertilizer, pruning/training, pests, harvest, preservation
   SCHEDULE.md       # Rolling ~3-month task schedule (regenerated; dated header)
   layout/
-    README.md       # Units, north arrow policy, how files relate (optional but recommended)
-    interior-*.svg  # One SVG per raised bed + greenhouse: interior dims, plants, drip (¼″ + emitters)
-    beds-legend.md  # Symbol → plant; drip line styles, emitter legend, timer/zone notes
+    README.md       # Units, north-arrow policy, grid spacing, how files relate
+    interior-*.md   # One ASCII file per raised bed + greenhouse: interior dims + plant grid
+    beds-legend.md  # Per-bed symbol → plant; grid conventions
   sketches/
-    ...             # Raster sketches (PNG/JPG); source for tracing into SVG; do not delete
+    ...             # Raster sketches (PNG/JPG); source for the ASCII layouts; do not delete
 ```
 
 ## Markdown only
@@ -42,22 +42,16 @@ Should state or link:
 - Hardiness zone and **last spring / first fall frost** (source and dates)
 - Property constraints (sun, water, time budget, organic/synthetic preferences)
 - Infrastructure: trellises, row cover, irrigation
-- Which layout files are canonical (`layout/interior-*.svg` + `beds-legend.md`; no whole-lot SVG required)
+- Which layout files are canonical (`layout/interior-*.md` + `beds-legend.md`; no whole-lot diagram required)
 - Open questions and decisions log (dated bullets are fine)
 
 ## Layout (`layout/` + `sketches/`)
 
-- **Sketches:** User-supplied rasters in `sketches/` are the visual reference; preserve them. Sketches may be **bed/planting only**, **drip/tubing only**, or **combined** (tubing is often planned per bed before planting).
-- **SVG:** Each file is **one enclosure** (one raised bed interior or greenhouse floor) at **true interior dimensions** (inches or cm—state in `layout/README.md` or `PLAN.md`).
-- **Letters/symbols:** Use a short code per plant type in the diagram; define codes in `beds-legend.md`.
+- **Sketches:** User-supplied rasters in `sketches/` are the visual reference; preserve them. Sketches may be bed/planting only, drip/tubing only, or combined.
+- **ASCII diagrams:** Each `interior-*.md` file is **one enclosure** (one raised bed interior or greenhouse floor) at **true interior dimensions** (inches). Plants sit on grid intersections of a fixed grid spacing (typically 6"). The `garden-layout-ascii` skill documents the rendering rules; `layout/README.md` and `layout/beds-legend.md` document the conventions for this season.
+- **Letters/symbols:** Use a short (single uppercase letter) code per plant type per diagram; define codes in each `interior-*.md` file and summarize across beds in `beds-legend.md`. The same letter may denote different plants in different beds — each file is self-contained.
 - **Spacing inside each bed** should match the plan (rows, in-row spacing, counts). Lot position is optional sketch-only.
-- Use stable group `id`s (e.g. `<g id="plants">`, `<g id="irrigation">` per file).
-
-### Drip irrigation (diagram)
-
-- **Hardware assumption:** **1/4 inch** drip tubing to most beds; **one emitter at each plant base** (or each planned plant position). **Multiple timers** run separate circuits—diagrams should show **which timer feeds which bed or zone** (stroke color or dash pattern per circuit, plus labels).
-- **SVG structure:** Keep plants and irrigation in **separate groups** (e.g. beds/plants vs `<g id="irrigation">`). Tubing may be **schematic** (readable polylines; not literal 1/4" line width). Emitter positions align with plant markers.
-- **Legend:** Extend `beds-legend.md` with a **Drip / irrigation** subsection (line styles, emitter symbol, timer names). Optional **timer → beds** table in the legend if the SVG is busy.
+- **Drip / irrigation** belongs in prose (`PLAN.md` + `CARE.md`), **not** in the ASCII layouts. Zone assignments, emitter rates (GPH), run times, and schedule all live in `PLAN.md` / `CARE.md`; layouts stay focused on plant positions.
 
 ## Schedule (`SCHEDULE.md`)
 
