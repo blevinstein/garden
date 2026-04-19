@@ -24,7 +24,7 @@ Work in **`~/dev/garden/<YYYY>/`**. Obey **`~/dev/garden/CONVENTIONS.md`**.
   - **Remainder of the 3-month window:** weekly or biweekly buckets; use **monthly** sections only when weekly detail would be noise.
 - Reference **`CARE.md`** for recurring care (fertilize, prune) without pasting long prose—point to sections.
 
-Out of scope: editing **`PLAN.md` / `CROPS.md` / `CARE.md`** except when a contradiction must be fixed to make the schedule sane (prefer flagging the user); primary narrative edits belong to **`garden-plan-of-record`**. SVG work belongs to **`garden-layout-svg`**.
+Out of scope: editing **`PLAN.md` / `CROPS.md` / `CARE.md`** except when a contradiction must be fixed to make the schedule sane (prefer flagging the user); primary narrative edits belong to **`garden-plan-of-record`**. Layout work belongs to **`garden-layout-ascii`**.
 
 ## Rules
 
@@ -38,8 +38,3 @@ Out of scope: editing **`PLAN.md` / `CROPS.md` / `CARE.md`** except when a contr
 2. Build the schedule from recorded frost dates and crop methods (direct sow vs transplant).
 3. Rewrite `SCHEDULE.md` with the agreed structure and a fresh **Generated** line.
 4. Tell the user the file path for an easy commit.
-</think>
-Fixing a typo in `garden-calendar-schedule/SKILL.md` (CROMS → CROPS).
-
-<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>
-StrReplace
