@@ -2,22 +2,28 @@
 
 Expand with variety-specific timing, fertilizer, and pest notes as you finalize the plan. Long windows belong here; week-by-week tasks go in `SCHEDULE.md` once frost dates exist.
 
-## Irrigation zones
+## Irrigation
 
-Six zones on a morning schedule. All zones run Sunday and Wednesday except the greenhouse, which runs daily. Target window per zone is 30 minutes or less; exact run-time tuning will happen after the first few watering cycles.
+Plan of record — zone schedule, run times, and per-plant emitter sizes — lives in [`PLAN.md` → Irrigation zones](PLAN.md#irrigation-zones). This section is operational tuning only.
 
-| # | Zone | Window | Days | Area / plants | Emitter / run-time notes |
-|---|------|--------|------|---------------|--------------------------|
-| 1 | Yard sprinklers | 3:00 – 5:00 am | Sun / Wed | Lawn + landscape; includes **English oak** and (assumed) **rhododendron** | Overhead sprinklers; run time per lawn needs — longest of the six windows |
-| 2 | Back yard trees | 5:00 – 5:30 am | Sun / Wed | **Peach tree**, **cherry bush** | **2 GPH** per tree, placed to cover a wider root zone; deep, infrequent watering (young 2025 transplants) |
-| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | **FS1** (rosemary + 37 onions), **FS2** (4 Brussels + 10 onions), **PS2** (kale + lemon balm), **PS1** (6 strawberries) | **1 GPH** for most plants; **½ GPH** for onions and lemon balm. PS beds dry more slowly than FS — use somewhat lower GPH in PS1 / PS2 to compensate |
-| 4 | Greenhouse | 6:00 – 6:30 am | **Daily** | Cherry tomato, 3 bell peppers, jalapeño, 3 sweet potatoes | **1–2 GPH** per plant; tune run time so soil stays evenly moist for tomatoes/peppers without sogginess around sweet potato roots |
-| 5 | Front yard — right | 6:30 – 7:00 am | Sun / Wed | Wildflowers, cucumbers, spaghetti squash, morning glory | Trellised vining crops — emitter at base of each vine; wildflower strip can share lower-GPH emitters once established |
-| 6 | Front yard — left | 7:00 – 7:30 am | Sun / Wed | Hops, peas | Hops are vigorous perennials — higher GPH during establishment; peas prefer steady moisture during pod fill |
+### Irrigation tuning
 
-**Not on any zone:** **Russian sage**, **Mormon tea**, **lavender** (dryland / drought-tolerant once established); **indoor herbs** (hand watered under grow lights).
+- **Run times are starting targets, not final values.** Expect to revisit at each seasonal shift: late-spring push (mid-May), midsummer peak (mid-July), early-fall wind-down (early September).
+- **Soil check routine:** 6 hours after a watering cycle, push a finger / trowel 2–3" into the root zone.
+  - Dust-dry at 2" → increase run time or add a day.
+  - Mud / water pooling at 2" → reduce run time.
+  - Surface dry, subsurface moist → on target.
+- **Zone-level tuning first, plant-level last.** Because each zone has one valve and one run time, the first lever is run time (± 10–15 min per cycle). Only add or swap emitters when a single plant's needs diverge sharply from the zone average.
+- **Peak summer (late Jul – Aug):** Denver heat + wind dry raised beds fast. If Zone 3 plants stress between Sat and Wed cycles, either bump Zone 3 run time by ~15 min or supplement the thirstiest plants by hand (Brussels, strawberries).
+- **PS vs FS beds share Zone 3.** PS1 / PS2 dry more slowly than FS1 / FS2. If PS soil is staying soggy at 2" while FS is fine, step down run time slightly rather than letting PS stay wet — PS plants tolerate drying between cycles.
+- **Greenhouse daily drip** is very sensitive. Tomato wilt by mid-afternoon in summer means under-watering even on daily drip — first step is to extend Zone 4 run time by +10–15 min and watch the peppers for signs of overwatering (yellowing lower leaves, soggy stems).
+- **Young peach + cherry (Zone 2):** the goal is deep, infrequent watering. A single 2 GPH emitter × 90 min × 2 days/wk = 6 gal/week per tree. Occasionally probe 12" down — that's where you want moisture, not just the top 2". If the tree is drying too fast in peak summer, extend Zone 2 run time (up to ~2 hr) before adding emitters.
+- **Rain skip:** if rainfall ≥ 0.5" falls within the 24 hr window of a scheduled cycle, skip that cycle.
 
-**Compost bin:** On drip; same zone as the boxes.
+### Not on drip
+
+- **Russian sage**, **Mormon tea**, **lavender**: dryland / drought-tolerant once established.
+- **Indoor herbs:** hand-watered under grow lights; frequency by pot size.
 
 
 ## Row cover

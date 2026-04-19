@@ -110,20 +110,56 @@ Basil, peppermint, cilantro, parsley, thyme, oregano, sage, cumin, dill.
 
 ## Irrigation zones
 
-Six irrigation zones, all running in the early morning. Sunday/Wednesday schedule for everything except the greenhouse, which runs daily. Target windows are 30 minutes or less per zone — exact run times will be tuned per zone later.
+Six zones, all running in the early morning between midnight and ~7:15 am. Saturday/Wednesday schedule for everything except the greenhouse, which runs daily. Each zone has one valve and one run time per cycle — **per-plant watering is controlled by emitter size**, not by run time. Strategy: **one emitter per plant**, with run times long enough that a single emitter delivers adequate weekly water. Hardware on hand: **½ GPH**, **1 GPH** (a few spares), and **2 GPH**.
 
-| # | Zone | Window | Days | Plants / area |
-|---|------|--------|------|---------------|
-| 1 | Yard sprinklers | 3:00 – 5:00 am | Sun / Wed | Lawn and landscape — includes **English oak** and (assumed) **rhododendron** |
-| 2 | Back yard trees | 5:00 – 5:30 am | Sun / Wed | **Peach tree**, **cherry bush** |
-| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | FS1 (rosemary, 37 onions); FS2 (4 Brussels, 10 onions); PS2 (kale, lemon balm); PS1 (6 strawberries) |
-| 4 | Greenhouse | 6:00 – 6:30 am | **Daily** | Cherry tomato, 3 bell peppers, jalapeño, 3 sweet potatoes |
-| 5 | Front yard — right | 6:30 – 7:00 am | Sun / Wed | Wildflowers, cucumbers, spaghetti squash, morning glory |
-| 6 | Front yard — left | 7:00 – 7:30 am | Sun / Wed | Hops, peas |
+### Schedule
+
+All drip zones finish by ~7:15 am. A 1-hour buffer between Zone 1 and Zone 2 (1:00–2:00 am) lets the lawn program extend if needed without pushing into the drip schedule. On non-Sat/Wed days only Zone 4 (greenhouse) runs.
+
+| # | Zone | Window | Days | Run time | Plants / area |
+|---|------|--------|------|----------|---------------|
+| 1 | Yard sprinklers | 12:00 – 1:00 am | Sat / Wed | **1 hr** (15 min × 4 lawn sub-zones; buffer 1:00–2:00 for extension) | Lawn + landscape — includes **English oak** and **rhododendron** |
+| 2 | Back yard trees | 2:00 – 3:30 am | Sat / Wed | **1.5 hr** | **Peach tree**, **cherry bush** |
+| 3 | Boxes (all four raised beds) | 3:30 – 4:30 am | Sat / Wed | **1 hr** | FS1 (rosemary, 37 onions); FS2 (4 Brussels, 10 onions); PS2 (6 kale, 1 lemon balm); PS1 (6 strawberries) |
+| 4 | Greenhouse | 4:30 – 5:15 am | **Daily** | **45 min** | Cherry tomato, 3 bell peppers, jalapeño, 3 sweet potatoes |
+| 5 | Front yard — right | 5:15 – 6:15 am | Sat / Wed | **1 hr** | Wildflowers, cucumber, spaghetti squash, morning glory |
+| 6 | Front yard — left | 6:15 – 7:15 am | Sat / Wed | **1 hr** | Hops, peas |
 
 **Not on any drip zone:** Russian sage, Mormon tea, lavender (dryland / not irrigated); indoor herbs (hand watered).
 
-Run-time tuning, emitter rates, and per-plant GPH targets live in [`CARE.md`](CARE.md).
+### Emitters per plant
+
+One emitter per plant. Weekly water = emitter GPH × run time (hr) × days/week (2 for Sat/Wed zones, 7 for greenhouse).
+
+| Zone | Plant | Emitter per plant | Gal / plant / week |
+|------|-------|-------------------|---------------------|
+| 2 | Peach tree | 2 GPH (existing) | 6.0 |
+| 2 | Cherry bush | 2 GPH (existing) | 6.0 |
+| 3 | Onion (47 total) | ½ GPH | 1.0 |
+| 3 | Rosemary | — (no emitter; picks up incidental moisture from adjacent onion drip in FS1) | — |
+| 3 | Lemon balm | ½ GPH | 1.0 |
+| 3 | Brussels sprout (4) | 2 GPH (or 1 GPH if on hand) | 4.0 (or 2.0) |
+| 3 | Kale (6) | 2 GPH (or 1 GPH if on hand) | 4.0 (or 2.0) |
+| 3 | Strawberry (6) | 2 GPH | 4.0 |
+| 4 | Cherry tomato | 2 GPH | 10.5 |
+| 4 | Bell pepper (3) | ½ GPH | 2.6 |
+| 4 | Jalapeño | ½ GPH | 2.6 |
+| 4 | Sweet potato (3) | 2 GPH | 10.5 |
+| 5 | Wildflowers | ½ GPH, spaced 12–18" along the strip | 1.0 per emitter |
+| 5 | Cucumber | 2 GPH (existing) | 4.0 |
+| 5 | Spaghetti squash | 2 GPH (existing) | 4.0 |
+| 5 | Morning glory | 2 GPH | 4.0 |
+| 6 | Hops | 2 GPH (existing) | 4.0 |
+| 6 | Peas | 1 GPH (preferred) or 2 GPH (existing) | 2.0 or 4.0 |
+
+**Notes on this setup:**
+
+- All *already-installed* emitters (peach, cherry, cucumber, squash, hops, peas) are **reused** — run times are long enough that a single 2 GPH emitter delivers adequate weekly water.
+- **Peas at 2 GPH** deliver 4 gal/week, which is on the high side; if one of the on-hand 1 GPH spares is available, swap it in for ~2 gal/week.
+- **Brussels and kale** also have a 1 GPH option if spares cover all 10 plants (4 + 6). Otherwise 2 GPH is fine in the growing season; tune run time down in early fall.
+- **Rosemary** gets no dedicated emitter — it's planted inside FS1's onion drip area and will pick up incidental moisture, which is closer to what rosemary actually wants than a dedicated ½ GPH line.
+
+Seasonal tuning, stress signals, and adjustment rules live in [`CARE.md` → Irrigation tuning](CARE.md#irrigation-tuning).
 
 ## Infrastructure
 
@@ -139,13 +175,14 @@ Run-time tuning, emitter rates, and per-plant GPH targets live in [`CARE.md`](CA
 - **2026-03-29:** Sketch + satellite aligned: north row **FS2–GH–FS1–PS2–PS1**; partial beds relabeled **PS1** / **PS2**; rhododendron, Russian sage, hops, south-wall flowers added; layout docs started.  
 - **2026-03-29:** Dropped whole-property `beds.svg`; **interior-only** per-bed + greenhouse diagrams (initially SVG with drip layers, later migrated to ASCII — see 2026-04-19).  
 - **2026-04-18:** Reconciled plan with what was actually planted. **Added:** peas (front left), wildflowers (front right), rosemary (FS1), English oak and Mormon tea (front misc), lavender (back misc), onions in FS2 (10 bulbs). **Removed / changed:** green onions dropped; outdoor oregano dropped (indoor only); hops relocated from NE side of house to **front yard left**; south-wall ornamental flowers dropped in favor of wildflowers in front yard right. **Counts:** strawberries 6, kale 6, lemon balm 1–2, Brussels 4, FS1 onions 37, FS2 onions 10, bell peppers 3, sweet potatoes 3. **Covers:** FS1 uncovered; FS2, PS1, PS2 covered. **Irrigation:** replaced draft Zone 1–3 scheme with six named zones (yard sprinklers; back yard trees; boxes; greenhouse; front right; front left) on a 3:00–7:30 am schedule, Sun/Wed except greenhouse daily.  
+- **2026-04-18:** Fixed run times and per-plant emitter sizes for all six zones. **Strategy:** one emitter per plant (reusing existing hardware on peach, cherry, cucumber, squash, hops, peas) with run times long enough for a single emitter to deliver adequate weekly water. **Schedule window shifted to midnight – 6:15 am**, Sat/Wed for zones 1/2/3/5/6, daily for Zone 4. **Run times:** Zone 1 sprinklers 1 hr (was 2, only 4 × 15 min lawn sub-zones needed); Zone 2 trees 1.5 hr; Zone 3 boxes 1 hr; Zone 4 greenhouse 45 min daily; Zones 5/6 front yard 1 hr each. **Emitter sizing:** 2 GPH on thirsty plants (Brussels, kale, strawberries, tomato, sweet potato, cucumber, squash, morning glory, hops, peach, cherry), ½ GPH on low-water plants (onions, lemon balm, peppers, jalapeño, wildflower strip), **no emitter on rosemary** (it's in FS1 and dislikes wet feet). 1 GPH spares are preferred on peas and optionally on Brussels/kale.  
 - **2026-04-19:** Migrated per-bed layouts from SVG to ASCII (6" grid). Per-bed plant positions are now in [`layout/interior-*.md`](layout/); SVGs and `beds-preview.png` removed. Drip tubing/emitter geometry is no longer stored in layouts — it lives here in `PLAN.md` and in [`CARE.md`](CARE.md).  
 
 ## Open questions
 
 - Varieties for each crop (especially tomatoes, peppers, squash, onions, peas, strawberries, kale).  
 - Seed vs purchased starts where not specified.  
-- Per-zone **run times** within the 30-minute windows (fine-tuning after first few watering cycles).  
+- **Seasonal run-time tuning** — starting run times are set (see Schedule table); expect to revisit at the late-May push, mid-July peak, and early-September wind-down. See [`CARE.md` → Irrigation tuning](CARE.md#irrigation-tuning).  
 - **English oak** and **rhododendron** — confirm whether they are on the yard sprinkler heads or on a separate micro-drip (and whether coverage is adequate for a young oak).  
 - **Rosemary in FS1 (uncovered):** overwintering strategy on the Front Range — mulch, move to pot indoors, or replant annually.  
 - **Hops** — trellis hardware on the front yard left fence; annual cutback schedule.  
