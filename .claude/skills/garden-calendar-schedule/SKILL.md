@@ -7,12 +7,9 @@ description: Regenerate or create the rolling approximately-three-month garden t
 
 ## Repository
 
-| | |
-|--|--|
-| **Remote** | `https://github.com/blevinstein/garden` |
-| **Local checkout** | `~/dev/garden` |
+This skill applies to the **garden** git repository. Use the **repository root** of the open workspace (the directory that contains `CONVENTIONS.md` and per-year folders)—do not assume a fixed clone path.
 
-Work in **`~/dev/garden/<YYYY>/`**. Obey **`~/dev/garden/CONVENTIONS.md`**.
+Work in **`<YYYY>/`**. Obey **`CONVENTIONS.md`** at the repository root.
 
 ## Scope
 

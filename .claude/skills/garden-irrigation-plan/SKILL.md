@@ -7,12 +7,9 @@ description: Plan or update the garden irrigation schedule and per-plant drip em
 
 ## Repository
 
-| | |
-|--|--|
-| **Remote** | `https://github.com/blevinstein/garden` |
-| **Local checkout** | `~/dev/garden` |
+This skill applies to the **garden** git repository. Use the **repository root** of the open workspace (the directory that contains `CONVENTIONS.md` and per-year folders)—do not assume a fixed clone path.
 
-Work inside **`~/dev/garden/<YYYY>/`**. Obey **`~/dev/garden/CONVENTIONS.md`**.
+Work inside **`<YYYY>/`**. Obey **`CONVENTIONS.md`** at the repository root.
 
 ## Scope
 

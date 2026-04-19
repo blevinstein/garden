@@ -2,10 +2,7 @@
 
 ## Repository paths
 
-| Item | Value |
-|------|--------|
-| Git remote | `https://github.com/blevinstein/garden` |
-| Default clone location | `~/dev/garden` |
+Paths in this document are **relative to the repository root** of your checkout (any directory name or location).
 
 ## Soil test (`SOIL.md` at repo root)
 

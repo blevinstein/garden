@@ -7,12 +7,9 @@ description: Maintain the seasonal garden plan of record in the garden git repoâ
 
 ## Repository
 
-| | |
-|--|--|
-| **Remote** | `https://github.com/blevinstein/garden` |
-| **Local checkout** | `~/dev/garden` |
+This skill applies to the **garden** git repository. Use the **repository root** of the open workspace (the directory that contains `CONVENTIONS.md` and per-year folders)â€”do not assume a fixed clone path.
 
-Work inside **`~/dev/garden/<YYYY>/`** for the active season (e.g. `~/dev/garden/2026/`). If the season folder does not exist, create it following **`~/dev/garden/CONVENTIONS.md`**.
+Work inside **`<YYYY>/`** for the active season (e.g. `2026/`). If the season folder does not exist, create it following **`CONVENTIONS.md`** at the repository root.
 
 ## Scope
 
@@ -24,7 +21,7 @@ Out of scope here (use the dedicated skills): producing or tracing **SVG** (`gar
 
 ## Workflow
 
-1. Read `~/dev/garden/CONVENTIONS.md` if unsure about paths or filenames.
+1. Read `CONVENTIONS.md` at the repository root if unsure about paths or filenames.
 2. Read the current `PLAN.md`, `CROPS.md`, and `CARE.md` before editing.
 3. Apply edits that keep the three files consistent (same crop names, bed labels, frost assumptions).
 4. If layout or schedule files exist, update `PLAN.md` links or short notes when the canonical file or assumptions change.

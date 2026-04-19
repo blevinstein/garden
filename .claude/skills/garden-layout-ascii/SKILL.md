@@ -7,12 +7,9 @@ description: Create or update ASCII-art garden planting layouts in the garden re
 
 ## Repository
 
-| | |
-|--|--|
-| **Remote** | `https://github.com/blevinstein/garden` |
-| **Local checkout** | `~/dev/garden` |
+This skill applies to the **garden** git repository. Use the **repository root** of the open workspace (the directory that contains `CONVENTIONS.md` and per-year folders)—do not assume a fixed clone path.
 
-Season content lives under **`~/dev/garden/<YYYY>/`**. Layout files under **`layout/`**; raster references under **`sketches/`**. Follow **`~/dev/garden/CONVENTIONS.md`** for naming and rules.
+Season content lives under **`<YYYY>/`** relative to that root. Layout files under **`<YYYY>/layout/`**; raster references under **`<YYYY>/sketches/`**. Follow **`CONVENTIONS.md`** at the repository root for naming and rules.
 
 ## Scope
 
@@ -51,7 +48,7 @@ Use this exact character discipline so files diff cleanly and the agent can re-r
 
 ## File layout
 
-Save as `~/dev/garden/<YYYY>/layout/interior-<id>.md`. Suggested body:
+Save as **`<YYYY>/layout/interior-<id>.md`** (under the repository root). Suggested body:
 
 ```markdown
 # <BED_ID> interior
