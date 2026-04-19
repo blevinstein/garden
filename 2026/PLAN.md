@@ -4,6 +4,8 @@ Plan of record for the 2026 growing season. **Canonical layout:** **interior** S
 
 **Location:** Denver, Colorado (Front Range).
 
+> **Layout sync note (2026-04-18):** The plant lists and irrigation zones below were updated to match what was actually planted this year. The per-bed SVGs in [`layout/`](layout/) and [`layout/beds-legend.md`](layout/beds-legend.md) still reflect the earlier plan and will be re-synced in a later pass.
+
 ## Zone and frost
 
 - **USDA hardiness zone:** Metro Denver is often cited around **6a–6b** on current maps, with cooler pockets (e.g. higher elevation nearby) toward **5b**. Confirm for your exact site (microclimate, elevation).  
@@ -20,96 +22,116 @@ Lab-style results (organic matter, pH, major nutrients) are in [`SOIL.md`](../SO
 
 **North fence, west → east** (see `layout-sketch.jpg`): **FS2** — **Greenhouse** — **FS1** — **PS2** — **PS1**. The **greenhouse** sits **northwest of the house** (north property line, west of the house’s center). **Inside each box / GH:** [`layout/interior-*.svg`](layout/). Earlier “box 3 / box 4” = **PS2** and **PS1**.
 
-| ID / name | Interior size | Sun | Row cover notes |
-|-----------|---------------|-----|-----------------|
-| Front yard (trellis / fence) | — | Full sun (assumed for vining crops) | — |
-| Greenhouse | 6 × 4 ft (24 sq ft) | Protected | N/A — **NW of house** (north row, between FS2 and FS1 on plan) |
-| Full sun box **FS1** | 6 × 3 ft | Full sun | None needed |
-| Full sun box **FS2** | 6 × 3 ft | Full sun | Optional early spring |
-| Partial sun box **PS2** | 6 × 3 ft | Partial sun | Recommended April–mid-May |
-| Partial sun box **PS1** | 6 × 3 ft | Partial sun | Highest priority late March–mid-May |
-| Indoor (pots) | — | Grow lights | N/A |
-| Back yard — peach tree | — | Full sun (typical) | — |
-| Back yard — cherry shrub | — | Full sun (typical) | — |
-| Back yard — compost bin | — | — | — |
+All raised boxes and the greenhouse are **irrigated** (box drip + greenhouse drip — see [Irrigation zones](#irrigation-zones)).
+
+| ID / name | Interior size | Sun | Cover | Row cover notes |
+|-----------|---------------|-----|-------|-----------------|
+| Greenhouse | 6 × 4 ft (24 sq ft) | Protected | Covered (GH structure) | N/A — **NW of house** (north row, between FS2 and FS1 on plan) |
+| Full sun box **FS1** | 6 × 3 ft | Full sun | **Uncovered** | Rosemary + onions — no row cover |
+| Full sun box **FS2** | 6 × 3 ft | Full sun | **Covered** | Covered in-season (Brussels sprouts + onions) |
+| Partial sun box **PS2** | 6 × 3 ft | Partial sun | **Covered** | Covered in-season (kale + lemon balm) |
+| Partial sun box **PS1** | 6 × 3 ft | Partial sun | **Covered** | Covered in-season (strawberries) — historically highest-priority late March–mid-May |
+| Front yard — left (hops / peas) | trellis / fence | Full sun | — | Irrigated (see zones) |
+| Front yard — right (vining crops + wildflowers) | trellis / fence | Full sun | — | Irrigated (see zones) |
+| Front yard — misc (Russian sage, English oak, Mormon tea) | landscape | Full sun | — | Mixed: oak on yard sprinklers; Russian sage + Mormon tea not irrigated |
+| Back yard — peach tree | — | Full sun (typical) | — | Irrigated (back yard trees zone) |
+| Back yard — cherry bush | — | Full sun (typical) | — | Irrigated (back yard trees zone) |
+| Back yard — misc (lavender, rhododendron) | landscape | Mixed | — | Rhododendron irrigated (yard sprinklers); lavender not irrigated |
+| Indoor (pots) | — | Grow lights | N/A | Hand watered |
 
 All raised boxes are **6 ft × 3 ft** unless noted otherwise.
 
-**Landscape (not in raised beds):** **Rhododendron** (garage–patio nook), **Russian sage** (south line), **hops** (NW circular patio + two on NE house per plan), **flowers** (south wall). Symbols: **D H P R C T $** — see sketches.
+**Back yard perennials:** Peach tree and cherry bush are young and were **transplanted in 2025**.
 
-**Back yard perennials:** Peach tree and cherry shrub are young and were **transplanted in 2025**. The **compost bin** is **north of the house** (near the central shed on the sketch) and tied into **drip** (timer/circuit TBD — note in `beds-legend.md` when fixed).
+## Front yard — left (irrigated)
 
-## Front yard — trellised / vining
+On the front yard left irrigation zone (trellis / fence — full sun):
 
+- **Hops** — perennial, trellised on fence  
+- **Peas** — trellised; variety TBD  
+
+## Front yard — right (irrigated)
+
+On the front yard right irrigation zone (trellis / fence — full sun):
+
+- **Wildflowers** — pollinator/ornamental strip  
 - **Cucumbers** — trellis  
-- **Morning glory** — fence or trellis  
 - **Spaghetti squash** — trellis  
+- **Morning glory** — fence or trellis  
+
+## Front yard — misc (landscape)
+
+Not on the vegetable drip circuits:
+
+- **Russian sage** — not irrigated (drought-tolerant once established)  
+- **English oak tree** — irrigated via yard sprinklers  
+- **Mormon tea (*Ephedra*)** — not irrigated (dryland shrub)  
+
+## Back yard — misc (landscape)
+
+- **Lavender** — not irrigated (drought-tolerant once established)  
+- **Rhododendron** — irrigated (garage–patio nook; likely via yard sprinklers — confirm)  
+- **Cherry bush** — irrigated (back yard trees zone)  
+- **Peach tree** — irrigated (back yard trees zone)  
 
 ## Greenhouse (6 × 4 ft)
 
-Intended as a full house: vertical training (e.g. cherry tomatoes) and efficient use of floor space with spreading crops (sweet potatoes).
+Intended as a full house: vertical training (cherry tomatoes) and efficient use of floor space with spreading crops (sweet potatoes).
 
-- Cherry tomatoes  
-- Bell peppers  
-- Jalapeños  
-- Sweet potatoes  
+- **Cherry tomato** — 1, vertical training  
+- **Bell peppers** — 3  
+- **Jalapeño** — 1  
+- **Sweet potatoes** — 3  
 
 ## Indoor — herbs (pots, grow lights)
 
-Basil, peppermint, cilantro, Italian parsley, curly parsley, thyme, oregano, sage, cumin, dill — all **indoors in containers** under **grow lights** (not on the outdoor drip zones below).
+Indoors in containers under grow lights (not on the outdoor drip zones):
+
+Basil, peppermint, cilantro, parsley, thyme, oregano, sage, cumin, dill.
 
 ## Raised boxes
 
-### Full sun box FS1
+### Full sun box FS1 (uncovered)
 
-- **Yellow onions** — 12–15 bulbs, full bed  
-- **Green onions**  
+- **Rosemary** — 1 plant (perennial; evaluate winter survival in an uncovered bed)  
+- **Onions** — 35 bulbs (full-bed planting)  
 
-### Full sun box FS2
+### Full sun box FS2 (covered)
 
-- **Brussels sprouts** — direct sow or transplant mid-June–mid-July for fall harvest  
+- **Brussels sprouts** — 4 plants (transplant mid-June–mid-July for fall harvest)  
+- **Onions** — 10 bulbs  
 
-**Outdoor oregano (Zone 2):** In **FS1** and/or **FS2** — finalize placement in [`layout/interior-fs1.svg`](layout/interior-fs1.svg) / [`interior-fs2.svg`](layout/interior-fs2.svg). Indoor pots also include oregano under grow lights.
+### Partial sun box PS2 (covered)
 
-### Partial sun box PS2
+- **Kale** — 6 plants  
+- **Lemon balm** — 1–2 plants (contain; spreads)  
 
-- **Kale** — 6–8 plants  
-- **Lemon balm** — 2–3 plants  
-
-### Partial sun box PS1
+### Partial sun box PS1 (covered)
 
 - **Strawberries** — 6 plants  
 
+## Irrigation zones
+
+Six irrigation zones, all running in the early morning. Sunday/Wednesday schedule for everything except the greenhouse, which runs daily. Target windows are 30 minutes or less per zone — exact run times will be tuned per zone later.
+
+| # | Zone | Window | Days | Plants / area |
+|---|------|--------|------|---------------|
+| 1 | Yard sprinklers | 3:00 – 5:00 am | Sun / Wed | Lawn and landscape — includes **English oak** and (assumed) **rhododendron** |
+| 2 | Back yard trees | 5:00 – 5:30 am | Sun / Wed | **Peach tree**, **cherry bush** |
+| 3 | Boxes (all four raised beds) | 5:30 – 6:00 am | Sun / Wed | FS1 (rosemary, 35 onions); FS2 (4 Brussels, 10 onions); PS2 (kale, lemon balm); PS1 (6 strawberries) |
+| 4 | Greenhouse | 6:00 – 6:30 am | **Daily** | Cherry tomato, 3 bell peppers, jalapeño, 3 sweet potatoes |
+| 5 | Front yard — right | 6:30 – 7:00 am | Sun / Wed | Wildflowers, cucumbers, spaghetti squash, morning glory |
+| 6 | Front yard — left | 7:00 – 7:30 am | Sun / Wed | Hops, peas |
+
+**Not on any drip zone:** Russian sage, Mormon tea, lavender (dryland / not irrigated); indoor herbs (hand watered).
+
+Run-time tuning, emitter rates, and per-plant GPH targets live in [`CARE.md`](CARE.md).
+
 ## Infrastructure
 
-- Trellising / fence use in front yard for cucumbers, morning glory, spaghetti squash.  
-- Row cover: prioritize **PS1** (strawberries, late March–mid-May), then **PS2** (April–mid-May); optional early spring on **FS2**.  
-- **Drip irrigation (draft zones):** **interior** diagrams `layout/interior-*.svg` show **Zone 1–2** emitter placement for beds and greenhouse (per [CONVENTIONS.md](../CONVENTIONS.md)). **Zone 3** (peach/cherry) has no interior box file yet—add if useful. Compost bin: same drip system; timer TBD in legend.
-
-### Drip — Zone 1 (greenhouse)
-
-- **Plants:** Cherry tomatoes, bell peppers, jalapeños, sweet potatoes.  
-- **Emitters:** 1–2 GPH per plant.  
-- **Frequency:** Daily or near-daily at peak summer.  
-
-### Drip — Zone 2 (all four raised boxes)
-
-- **Plants:** Yellow onions, green onions, Brussels sprouts, outdoor oregano (**FS1** / **FS2**); kale, lemon balm (**PS2**); strawberries (**PS1**).  
-- **Emitters:** **1 GPH** for most plants; **½ GPH** for onions and lemon balm. **PS1** and **PS2** dry more slowly than **FS1** / **FS2** but share this zone — use **somewhat lower GPH in PS1–PS2** than in the full-sun boxes to compensate.  
-- **Frequency:** Every 2–3 days.  
-
-### Drip — Zone 3 (back yard — peach + cherry)
-
-- **Plants:** Peach tree, cherry shrub.  
-- **Emitters:** **2 GPH**, placed to cover a **wider root zone**.  
-- **Frequency:** Every **4–5 days**, with **longer run times** for deep, infrequent watering (young trees/shrub, root development).  
-
-**Front yard** vining crops and **indoor herbs** are not listed on these drip zones yet — hand water or add a future zone when decided.
-
-## Layout and schedule
-
-- **Layout:** [`layout/interior-fs2.svg`](layout/interior-fs2.svg), [`interior-fs1.svg`](layout/interior-fs1.svg), [`interior-ps2.svg`](layout/interior-ps2.svg), [`interior-ps1.svg`](layout/interior-ps1.svg), [`interior-greenhouse.svg`](layout/interior-greenhouse.svg). Legend: [`layout/beds-legend.md`](layout/beds-legend.md). See [`layout/README.md`](layout/README.md).  
-- **Schedule:** Regenerate `SCHEDULE.md` after frost dates are set (see `garden-calendar-schedule` skill).  
+- **Trellising / fence:** front yard right (cucumbers, morning glory, spaghetti squash), front yard left (hops, peas).  
+- **Row cover:** **FS2**, **PS2**, and **PS1** are covered; **FS1** is uncovered. Typical Front Range cover windows are in [`CARE.md`](CARE.md).  
+- **Drip irrigation:** Six zones scheduled above. The per-bed interior SVGs (`layout/interior-*.svg`) still show the old Zone 1–2 scheme and will be re-synced later.  
 
 ## Decisions log
 
@@ -118,12 +140,15 @@ Basil, peppermint, cilantro, Italian parsley, curly parsley, thyme, oregano, sag
 - **2026-03-28:** Indoor herbs under grow lights; back-yard peach, cherry (2025 transplants), compost on drip; draft drip Zones 1–3 recorded.  
 - **2026-03-29:** Sketch + satellite aligned: north row **FS2–GH–FS1–PS2–PS1**; partial beds relabeled **PS1** / **PS2**; rhododendron, Russian sage, hops, south-wall flowers added; layout docs started.  
 - **2026-03-29:** Dropped whole-property `beds.svg`; **interior-only** SVGs per bed + greenhouse with drip layers (`interior-*.svg`).  
+- **2026-04-18:** Reconciled plan with what was actually planted. **Added:** peas (front left), wildflowers (front right), rosemary (FS1), English oak and Mormon tea (front misc), lavender (back misc), onions in FS2 (10 bulbs). **Removed / changed:** green onions dropped; outdoor oregano dropped (indoor only); hops relocated from NE side of house to **front yard left**; south-wall ornamental flowers dropped in favor of wildflowers in front yard right. **Counts:** strawberries 6, kale 6, lemon balm 1–2, Brussels 4, FS1 onions 35, FS2 onions 10, bell peppers 3, sweet potatoes 3. **Covers:** FS1 uncovered; FS2, PS1, PS2 covered. **Irrigation:** replaced draft Zone 1–3 scheme with six named zones (yard sprinklers; back yard trees; boxes; greenhouse; front right; front left) on a 3:00–7:30 am schedule, Sun/Wed except greenhouse daily.  
 
 ## Open questions
 
-- Varieties for each crop (especially tomatoes, peppers, squash, onions).  
+- Varieties for each crop (especially tomatoes, peppers, squash, onions, peas, strawberries, kale).  
 - Seed vs purchased starts where not specified.  
+- Per-zone **run times** within the 30-minute windows (fine-tuning after first few watering cycles).  
+- **English oak** and **rhododendron** — confirm whether they are on the yard sprinkler heads or on a separate micro-drip (and whether coverage is adequate for a young oak).  
+- **Rosemary in FS1 (uncovered):** overwintering strategy on the Front Range — mulch, move to pot indoors, or replant annually.  
+- **Hops** — trellis hardware on the front yard left fence; annual cutback schedule.  
+- **Compost bin** — previously on the draft drip plan but not referenced in the 2026 planting list; decide whether to tie it into a drip zone (which one) or leave off.  
 - Block-level microclimate (cold sink, heat island, wind) vs. generic Denver dates.  
-- Add `interior-zone3.svg` (peach/cherry root zone) if you want emitter map for woody plants.  
-- Outdoor oregano: **FS1** vs **FS2** vs split.  
-- Which drip timer/circuit feeds the compost bin; whether front-yard beds get drip later.  

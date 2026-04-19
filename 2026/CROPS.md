@@ -1,56 +1,59 @@
 # 2026 crops
 
-Crop list aligned with `PLAN.md`. Update varieties and seed/start choices as you decide them.
+Crop list aligned with `PLAN.md`. Update varieties as you decide them.
 
-| Crop | Variety (TBD) | Quantity / footprint | Seed / transplant | Bed | Notes |
-|------|---------------|----------------------|-------------------|-----|--------|
-| Cucumber | — | — | — | `front-yard` | Trellis |
-| Morning glory | — | — | — | `front-yard` | Fence or trellis |
-| Spaghetti squash | — | — | — | `front-yard` | Trellis |
-| Cherry tomato | — | — | — | `greenhouse` | Vertical training; **Drip Zone 1** — 1–2 GPH, daily/near-daily peak summer |
-| Bell pepper | — | — | — | `greenhouse` | **Drip Zone 1** |
-| Jalapeño | — | — | — | `greenhouse` | **Drip Zone 1** |
-| Sweet potato | — | — | — | `greenhouse` | Spreading; shares 24 sq ft with above; **Drip Zone 1** |
-| Yellow onion | — | 12–15 bulbs | — | `bed-fs1` | Full bed; **Drip Zone 2** — ½ GPH |
-| Green onion | — | — | — | `bed-fs1` | Same box as yellow onions; **Drip Zone 2** — ½ GPH |
-| Brussels sprout | — | — | Direct sow or transplant | `bed-fs2` | Mid-June–mid-July for fall; **Drip Zone 2** — 1 GPH |
-| Kale | — | 6–8 plants | — | `bed-ps2` | Row cover Apr–mid-May; **Drip Zone 2** — 1 GPH; partial sun → moderate emitter vs FS boxes |
-| Lemon balm | — | 2–3 plants | — | `bed-ps2` | Row cover Apr–mid-May; Zone 2 drip — prefer ½ GPH vs full-sun boxes |
-| Strawberry | — | 6 plants | — | `bed-ps1` | Row cover late Mar–mid-May (priority); Zone 2 drip — lower GPH than FS1–FS2 |
-| Oregano (outdoor) | — | — | — | `bed-fs1` / `bed-fs2` | Zone 2 drip; mark in `layout/interior-fs1.svg` and/or `interior-fs2.svg` |
-| Basil | — | Pots | — | `indoor` | Grow lights |
-| Peppermint | — | Pots | — | `indoor` | Grow lights |
-| Cilantro | — | Pots | — | `indoor` | Grow lights |
-| Italian parsley | — | Pots | — | `indoor` | Grow lights |
-| Curly parsley | — | Pots | — | `indoor` | Grow lights |
-| Thyme | — | Pots | — | `indoor` | Grow lights |
-| Oregano (indoor) | — | Pots | — | `indoor` | Grow lights; also outdoor oregano in raised beds |
-| Sage | — | Pots | — | `indoor` | Grow lights |
-| Cumin | — | Pots | — | `indoor` | Grow lights; usually grown for seed |
-| Dill | — | Pots | — | `indoor` | Grow lights |
-| Peach | — | Young tree (2025 transplant) | — | `backyard-peach` | Zone 3 drip; west yard — see sketches; no interior SVG yet |
-| Cherry (shrub) | — | Young shrub (2025 transplant) | — | `backyard-cherry` | Zone 3 drip; west yard — see sketches; no interior SVG yet |
-| Rhododendron | — | 1 | — | `yard-nook` | Garage–patio nook; sketch **D** |
-| Russian sage | — | 3 | — | `yard-south` | Along south property line; sketch **R** |
-| Hops | — | 2 | — | `yard-ne-house` | Northeast side of house; sketch **H** |
-| Flowers (ornamental) | — | Strip | — | `yard-south-house` | Along south wall of house |
+Irrigation zone numbers below refer to the named zones in [`PLAN.md`](PLAN.md#irrigation-zones): **1** yard sprinklers · **2** back yard trees · **3** boxes · **4** greenhouse · **5** front right · **6** front left.
 
-### Bed IDs (for layout legend later)
+| Crop | Variety (TBD) | Quantity | Bed | Zone | Notes |
+|------|---------------|----------|-----|------|-------|
+| Hops | — | 1 | `front-left` | 6 | Perennial; trellised on fence |
+| Peas | — | 1 patch | `front-left` | 6 | Trellised; cool-season |
+| Wildflowers | — | strip | `front-right` | 5 | Pollinator / ornamental mix |
+| Cucumber | — | 1 | `front-right` | 5 | Trellis |
+| Spaghetti squash | — | 1 | `front-right` | 5 | Trellis |
+| Morning glory | — | — | `front-right` | 5 | Fence or trellis |
+| Cherry tomato | — | 1 | `greenhouse` | 4 | Vertical training; daily drip |
+| Bell pepper | — | 3 | `greenhouse` | 4 | Daily drip |
+| Jalapeño | — | 1 | `greenhouse` | 4 | Daily drip |
+| Sweet potato | — | 3 | `greenhouse` | 4 | Spreading; shares 24 sq ft with above |
+| Rosemary | — | 1 | `bed-fs1` | 3 | **Uncovered** bed — overwintering strategy TBD |
+| Onion (FS1) | — | 35 bulbs | `bed-fs1` | 3 | Full-bed planting with rosemary |
+| Brussels sprout | — | 4 | `bed-fs2` | 3 | Plant mid-June–mid-July for fall harvest |
+| Onion (FS2) | — | 10 bulbs | `bed-fs2` | 3 | Shares FS2 with Brussels sprouts |
+| Kale | — | 6 | `bed-ps2` | 3 | Row cover in-season |
+| Lemon balm | — | 1–2 | `bed-ps2` | 3 | Can spread; contain or harvest aggressively |
+| Strawberry | — | 6 | `bed-ps1` | 3 | Row cover in-season (highest priority late Mar–mid-May) |
+| Basil | — | pot | `indoor` | — | Grow lights |
+| Peppermint | — | pot | `indoor` | — | Grow lights |
+| Cilantro | — | pot | `indoor` | — | Grow lights |
+| Parsley | — | pot | `indoor` | — | Grow lights |
+| Thyme | — | pot | `indoor` | — | Grow lights |
+| Oregano | — | pot | `indoor` | — | Grow lights (indoor only for 2026) |
+| Sage | — | pot | `indoor` | — | Grow lights |
+| Cumin | — | pot | `indoor` | — | Grow lights; usually grown for seed |
+| Dill | — | pot | `indoor` | — | Grow lights |
+| Peach | — | 1 (2025 transplant) | `backyard-peach` | 2 | Young tree; deep/infrequent drip |
+| Cherry bush | — | 1 (2025 transplant) | `backyard-cherry` | 2 | Young shrub; deep/infrequent drip |
+| Rhododendron | — | 1 | `yard-nook` | 1 (assumed) | Garage–patio nook; confirm coverage |
+| English oak | — | 1 | `front-misc` | 1 | Irrigated by yard sprinklers |
+| Russian sage | — | — | `front-misc` | — | Not irrigated (drought-tolerant) |
+| Mormon tea (*Ephedra*) | — | — | `front-misc` | — | Not irrigated (dryland shrub) |
+| Lavender | — | — | `back-misc` | — | Not irrigated (drought-tolerant) |
+
+### Bed / location IDs
 
 | ID | Location |
 |----|----------|
-| `front-yard` | Front yard — trellis and/or fence (vining crops) |
-| `greenhouse` | 6 × 4 ft greenhouse — **NW of house**, north row (between FS2 and FS1); **Drip Zone 1** |
-| `bed-fs1` | Full sun **FS1** (east of GH in north row) — **Drip Zone 2** |
-| `bed-fs2` | Full sun **FS2** (west end of north row) — **Drip Zone 2** |
-| `bed-ps2` | Partial sun **PS2** (west partial box; kale / lemon balm) — **Drip Zone 2** |
-| `bed-ps1` | Partial sun **PS1** (east end partial box; strawberries) — **Drip Zone 2** |
+| `front-left` | Front yard left — trellis / fence (hops, peas); **Zone 6** |
+| `front-right` | Front yard right — trellis / fence (wildflowers + vining crops); **Zone 5** |
+| `front-misc` | Front yard landscape — Russian sage, English oak, Mormon tea |
+| `greenhouse` | 6 × 4 ft greenhouse — **NW of house**, north row; **Zone 4** (daily) |
+| `bed-fs1` | Full sun **FS1** (east of GH) — rosemary + 35 onions; **uncovered**; **Zone 3** |
+| `bed-fs2` | Full sun **FS2** (west end of north row) — Brussels sprouts + 10 onions; **covered**; **Zone 3** |
+| `bed-ps2` | Partial sun **PS2** — kale + lemon balm; **covered**; **Zone 3** |
+| `bed-ps1` | Partial sun **PS1** — strawberries; **covered**; **Zone 3** |
 | `yard-nook` | Rhododendron — garage / patio corner |
-| `yard-south` | Russian sage — south property line (3×) |
-| `yard-ne-house` | Hops — northeast of house (2×) |
-| `yard-south-house` | Flowers — south face of house |
-| `indoor` | Indoor pots under grow lights — not on outdoor drip plan |
-| `backyard-peach` | Back yard — peach tree — **Drip Zone 3** |
-| `backyard-cherry` | Back yard — cherry shrub — **Drip Zone 3** |
-
-**Compost bin** (back yard, on drip): note on irrigation diagram / timer assignment — not a crop; omit from plant legend unless you mark emitter location only.
+| `back-misc` | Back yard landscape — lavender |
+| `indoor` | Indoor pots under grow lights — hand watered; not on outdoor drip |
+| `backyard-peach` | Back yard — peach tree; **Zone 2** |
+| `backyard-cherry` | Back yard — cherry bush; **Zone 2** |
