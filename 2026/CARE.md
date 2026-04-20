@@ -26,6 +26,45 @@ Plan of record — zone schedule, run times, and per-plant emitter sizes — liv
 - **Indoor herbs:** hand-watered under grow lights; frequency by pot size.
 
 
+## Fertilizer
+
+### Inventory
+
+| Product | Analysis | Form | Notes |
+|---------|----------|------|-------|
+| All purpose | 12-4-8 | Slow-release pellets | Primary spring fertilizer — N-forward, low P fits the soil test |
+| All purpose | 10-10-10 | Slow-release pellets | Acceptable backup; adds more P/K than needed given soil levels |
+| Bloom food | 12-24-12 | Slow-release pellets | **Hold** — soil P already sufficient (167 ppm); only use if a crop shows clear P deficiency |
+| Bulb and bloom | 4-10-10 | Slow-release pellets | **Hold** — low N, high P/K; poor fit for this soil; possibly useful as late-season onion side-dress when bulbing starts |
+| Tomato food | 18-18-21 | Dissolve in water | Greenhouse crops once planted; also a liquid option for quick mid-season boost |
+
+**Soil context (2023 test):** P 167 ppm and K 437 ppm are both sufficient — prioritize N, avoid over-applying P/K. See [`SOIL.md`](../SOIL.md).
+
+### April — at planting
+
+| Plant | Fertilizer | Notes |
+|-------|-----------|-------|
+| Strawberries (PS1) | **12-4-8** | Light top-dress; N drives spring growth before bloom |
+| Onions — FS1 (37) + FS2 (10) | **12-4-8** | Side-dress at planting; N builds tops → tops drive bulb size |
+| Kale (PS2) | **12-4-8** | Top-dress; leafy crop wants steady N through harvest |
+| Hops (front-left) | **12-4-8** | N-forward at bine emergence; heavy feeder through June |
+| Peach + cherry (backyard) | **12-4-8** | Light application at bud break; don't over-apply on young trees |
+
+Skip: **peas** (nitrogen-fixers — extra N delays pods), **rosemary** (prefers lean soil), **lemon balm** (compost top-dress is enough).
+
+### After last frost (mid-May onward) — warm-season crops
+
+| Plant | Fertilizer | Notes |
+|-------|-----------|-------|
+| Cherry tomato, bell peppers, jalapeño | **18-18-21** (liquid) | Start 2 weeks after transplanting; every 2–3 weeks through mid-August |
+| Cucumber, spaghetti squash (front-right) | **18-18-21** (liquid) or **12-4-8** | At transplanting and again at vine run |
+| Brussels sprouts (FS2) | **12-4-8** | At transplant (June–July) and again mid-August |
+| Sweet potato | **12-4-8** or skip | Excess N grows vines, not tubers — apply lightly if at all |
+
+### Mid-season note — onion bulbing (late May–June)
+
+When onion tops start to slow and bulbing begins, **stop all N fertilizer**. The 4-10-10 bulb food could be used here as a final side-dress to back off N — but given sufficient soil P/K, use it sparingly or skip entirely and just taper watering instead.
+
 ## Row cover
 
 FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
