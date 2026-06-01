@@ -78,18 +78,6 @@ FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
 
 ## Fertilization
 
-Products on hand (all slow-release pellets except tomato food):
-
-| Product | N-P-K | Form |
-|---------|-------|------|
-| All purpose | **12-4-8** | Slow-release pellets |
-| Bloom food | **12-24-12** | Slow-release pellets |
-| Bulb & bloom | **4-10-10** | Slow-release pellets |
-| All purpose | **10-10-10** | Slow-release pellets |
-| Tomato food | **18-18-21** | Water-soluble |
-
-### What to use where
-
 | Crop / location | Product | Timing | Notes |
 |-----------------|---------|--------|-------|
 | Brussels sprouts (FS2) | **12-4-8** pellets | Every 3–4 weeks through August | Heavy nitrogen feeder |
