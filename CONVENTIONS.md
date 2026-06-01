@@ -20,6 +20,7 @@ All season content lives under **`<YYYY>/`** where `<YYYY>` is the calendar year
   CROPS.md          # Crop list: variety, quantity, bed assignment, spacing notes
   CARE.md           # Water, fertilizer, pruning/training, harvest, preservation
   PESTS.md          # Pest observations and control protocols (dated log + perennial reference)
+  WEATHER.md        # Significant weather events with sources; correlate with crop outcomes
   SCHEDULE.md       # Rolling ~3-month task schedule (regenerated; dated header)
   layout/
     README.md       # Units, north-arrow policy, grid spacing, how files relate
