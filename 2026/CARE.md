@@ -136,9 +136,23 @@ FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
 
 ### Back yard — peach and cherry bush (`backyard-peach`, `backyard-cherry`)
 
-- **2025 transplants:** favor deep, less frequent watering (Zone 2) to encourage rooting; adjust if soil holds water differently than raised beds.  
-- **Peach:** winter pruning, pest monitoring (e.g. peach leaf curl in some Front Range sites — variety and spray/winter treatment TBD).  
-- **Cherry bush:** training and bird protection TBD by form and fruiting habit.
+- **2025 transplants:** favor deep, less frequent watering (Zone 2) to encourage rooting; adjust if soil holds water differently than raised beds.
+- **Peach:** winter pruning; watch for peach leaf curl at bud break (dormant copper spray if confirmed — see [`PESTS.md`](PESTS.md#peach-leaf-curl-taphrina-deformans)).
+- **Cherry bush:** training and bird protection TBD by form and fruiting habit. Aphid pressure is a recurring problem — see [`PESTS.md`](PESTS.md#aphids).
+
+#### Peach pruning log
+
+**2026-06-01 — observation (photo: `2026/photos/2026-05-31-peach.jpg`)**
+
+Tree is in excellent health for a 2025 transplant: strong leaf color, no signs of peach leaf curl or pest damage. Mid-section scaffold branching is well-spaced and open. The main problem is the crown: a dense cluster of upright water sprouts is competing at the top, closing off the canopy center and pushing the tree toward a central-leader shape rather than the desired open-center (vase) form.
+
+**Action (early June 2026):** Summer pruning pass. Remove dense upright water sprouts from the crown to open a "window" to the sky. Keep outward-angled scaffold branches; remove vertical shoots competing for the center. Target: no more than ~20–25% of canopy removed. Leave mid and lower branching untouched — structure there is good.
+
+**What to check in spring 2027:**
+- Did the remaining scaffold branches thicken noticeably over summer/fall?
+- How much regrowth came back in the crown — did thinning reduce future water sprout density?
+- Any peach leaf curl on new leaves after bud break? (Consider dormant copper spray next winter if so.)
+- Continue open-center shaping as part of winter/early-spring pruning before bud break.
 
 ### Greenhouse (`greenhouse`)
 

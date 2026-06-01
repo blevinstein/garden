@@ -14,6 +14,7 @@
 - **PS1 (strawberries):** Finger-check 2–3" moisture 6 hours after Zone 3 cycle — strawberries looked slightly dry. If dusty at 2", bump Zone 3 run time +10–15 min ([`CARE.md` → Irrigation tuning](CARE.md#irrigation-tuning)).
 - **Indoor herbs:** Resume hand watering.
 - **Peas (front left):** Assess whether vines are finished (yellowing, dry). Pull spent plants; plan a succession sow for fall (late July–early August).
+- **Peach (backyard):** Summer pruning pass — thin the dense upright water sprouts crowding the crown to open the canopy center. Keep outward-angled scaffold branches; remove vertical shoots competing for the same space. Do not touch the well-structured mid/lower branching. Remove no more than ~20–25% of canopy. See [`CARE.md` → Peach pruning log](CARE.md#peach-pruning-log).
 
 ## Week of 2026-06-08
 
@@ -27,7 +28,7 @@
 - **Brussels sprouts (FS2):** Already established and large — no replanting needed. Begin feeding nitrogen; inspect weekly for aphids and cabbage worms (hand-pick or Bt spray).
 - **Front right:** Train cucumber/squash weekly as vines climb; watch for powdery mildew — keep airflow around leaves.
 - **Hops (front left):** Add ties as growth continues up the trellis.
-- **Peach:** Inspect canopy for peach leaf curl or crossing branches; light pruning to open center if needed.
+- **Peach:** Follow up after summer pruning — check that cuts are healing cleanly; no further action needed unless new water sprouts are already shooting up strongly.
 - **Greenhouse:** Monitor sweet potato vines — steer or pinch if they start crowding tomato/peppers.
 
 ## July 2026
