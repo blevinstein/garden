@@ -136,9 +136,9 @@ FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
 
 ### Back yard — peach and cherry bush (`backyard-peach`, `backyard-cherry`)
 
-- **2025 transplants:** favor deep, less frequent watering (Zone 2) to encourage rooting; adjust if soil holds water differently than raised beds.  
-- **Peach:** winter pruning, pest monitoring (e.g. peach leaf curl in some Front Range sites — variety and spray/winter treatment TBD).  
-- **Cherry bush:** training and bird protection TBD by form and fruiting habit.
+- **2025 transplants:** favor deep, less frequent watering (Zone 2) to encourage rooting; adjust if soil holds water differently than raised beds.
+- **Peach:** winter pruning; watch for peach leaf curl at bud break (dormant copper spray if confirmed — see [`PESTS.md`](PESTS.md#peach-leaf-curl-taphrina-deformans)).
+- **Cherry bush:** training and bird protection TBD by form and fruiting habit. Aphid pressure is a recurring problem — see [`PESTS.md`](PESTS.md#aphids).
 
 #### Peach pruning log
 

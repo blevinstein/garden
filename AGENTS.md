@@ -14,7 +14,8 @@ All season content lives under `<YYYY>/` (e.g. `2026/`). The current season is `
 
 - [`2026/PLAN.md`](2026/PLAN.md) — plan of record: goals, constraints, frost/zone, infrastructure, decisions, irrigation zones.
 - [`2026/CROPS.md`](2026/CROPS.md) — crop list: variety, quantity, bed assignment, spacing.
-- [`2026/CARE.md`](2026/CARE.md) — water, fertilizer, pruning, pests, harvest, preservation, irrigation tuning.
+- [`2026/CARE.md`](2026/CARE.md) — water, fertilizer, pruning, harvest, preservation, irrigation tuning.
+- [`2026/PESTS.md`](2026/PESTS.md) — pest observations and control protocols (dated log + perennial reference).
 - [`2026/SCHEDULE.md`](2026/SCHEDULE.md) — rolling ~3-month task schedule (regenerated; dated header).
 - `2026/layout/` — one ASCII file per bed/greenhouse plus `beds-legend.md`; `sketches/` holds source rasters (do not delete).
 
