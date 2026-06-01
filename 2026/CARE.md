@@ -76,6 +76,52 @@ FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
 | `bed-fs2` | **Covered** | Early spring; extend into fall for Brussels sprouts |
 | `bed-fs1` | **Uncovered** | — (rosemary + onions) |
 
+## Fertilization
+
+Products on hand (all slow-release pellets except tomato food):
+
+| Product | N-P-K | Form |
+|---------|-------|------|
+| All purpose | **12-4-8** | Slow-release pellets |
+| Bloom food | **12-24-12** | Slow-release pellets |
+| Bulb & bloom | **4-10-10** | Slow-release pellets |
+| All purpose | **10-10-10** | Slow-release pellets |
+| Tomato food | **18-18-21** | Water-soluble |
+
+### What to use where
+
+| Crop / location | Product | Timing | Notes |
+|-----------------|---------|--------|-------|
+| Brussels sprouts (FS2) | **12-4-8** pellets | Every 3–4 weeks through August | Heavy nitrogen feeder |
+| Kale (PS2) | **10-10-10** pellets | Every 4 weeks | Moderate feeder; balanced is enough |
+| Hops (front left) | **12-4-8** pellets | Monthly June–August | Vigorous grower, responds well to N |
+| Onions — early (FS1, FS2) | **12-4-8** pellets | Early June only | N for leaf growth now |
+| Onions — bulbing (FS1, FS2) | **4-10-10** pellets | Switch to this in mid-July when tops start falling | High-N late delays bulbing; 4-10-10 supports bulb swell |
+| Strawberries (PS1) | **12-24-12** pellets | Early June; again after any fruiting flush | High-P supports root and fruit; avoid high-N mid-season |
+| Sweet potatoes (greenhouse) | **4-10-10** pellets | One light application early June; then hold | Low-N critical — excess N = all vine, no tuber |
+| Cherry tomato (greenhouse) — pre-flower | **10-10-10** pellets | Now, one application | Balanced while plant is sizing up |
+| Cherry tomato (greenhouse) — flowering+ | **18-18-21** liquid | Every 2 weeks once flower clusters form | Water-soluble for quick uptake; higher K supports fruit |
+| Bell peppers / jalapeño (greenhouse) | **18-18-21** liquid | Every 2–3 weeks | Consistent light feeding; liquid delivers fast |
+| Peach tree | **10-10-10** pellets | One application early June | Young tree — don't push hard; tree looks very healthy |
+| Cherry bush | **10-10-10** pellets | One application early June | Same caution as peach |
+
+**How much to apply:**
+- **Pellets in raised beds (6×3 ft):** Follow label rate for ~18 sq ft — roughly ¼–⅓ cup per bed per application. Work lightly into the top inch of soil, then water in. For individual greenhouse plants, use ~1–2 tbsp per plant.
+- **18-18-21 liquid:** Mix per label (typically ~1 tsp per gallon of water); apply ~1 quart per greenhouse plant. Flush the greenhouse soil with plain water every few weeks to prevent salt buildup.
+- **Frequency matters more than dose:** Slow-release pellets are designed for 1–2 applications per season for established plants. Applying every 4–6 weeks at label rate is safer than more often at half rate. When in doubt, use half the label dose — you can feed again in 4 weeks, but you can't take it back.
+
+**Signs of over-fertilization:**
+- Lush green growth with little fruit (tomatoes, peppers)
+- Leaf tip burn or brown edges
+- Sweet potatoes producing large vines and no tubers
+- Onions refusing to bulb (from excess late-season N)
+
+**General rules:**
+- Water in pellet fertilizers immediately after application (or apply just before rain).
+- For the 18-18-21 liquid: mix per label; apply to moist soil, not dry.
+- Skip a feeding if yellowing is from overwatering, not nutrient deficiency — fix irrigation first.
+- Raised beds deplete faster than in-ground; top-dress with compost at season's end.
+
 ## By location
 
 ### Front yard — left (`front-left`)
