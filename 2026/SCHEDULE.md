@@ -15,6 +15,7 @@
 - **Indoor herbs:** Resume hand watering.
 - **Peas (front left):** Assess whether vines are finished (yellowing, dry). Pull spent plants; plan a succession sow for fall (late July–early August).
 - **Peach (backyard):** Summer pruning pass — thin the dense upright water sprouts crowding the crown to open the canopy center. Keep outward-angled scaffold branches; remove vertical shoots competing for the same space. Do not touch the well-structured mid/lower branching. Remove no more than ~20–25% of canopy. See [`CARE.md` → Peach pruning log](CARE.md#peach-pruning-log).
+- **English oak (front):** Dead/brown tip is likely late-frost damage to new growth. Prune back to healthy green wood just above a healthy lateral bud; **seal the cut immediately** with pruning paint (oak wilt precaution during April–July window). Also check stake ties — make sure they're not girdling the trunk and allow some flex. Photo: [`photos/2026-06-01-oak.jpg`](photos/2026-06-01-oak.jpg).
 
 ## Week of 2026-06-08
 
@@ -29,6 +30,7 @@
 - **Front right:** Train cucumber/squash weekly as vines climb; watch for powdery mildew — keep airflow around leaves.
 - **Hops (front left):** Add ties as growth continues up the trellis.
 - **Peach:** Follow up after summer pruning — check that cuts are healing cleanly; no further action needed unless new water sprouts are already shooting up strongly.
+- **English oak:** Check that pruning cut is healing. If new leader growth has started from a lateral, good. Confirm stake ties still have slack. Keep up deep watering through summer heat (slow soak at drip line 1–2×/week).
 - **Greenhouse:** Monitor sweet potato vines — steer or pinch if they start crowding tomato/peppers.
 
 ## July 2026
