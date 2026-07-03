@@ -111,3 +111,40 @@ Affects Brussels sprouts (FS2) and kale (PS2). Small green caterpillars; look fo
 ### Squash vine borer
 
 Watch for on spaghetti squash (front right) from late June onward. Adult moth lays eggs at stem base; larvae bore into the stem. Signs: sudden wilting of a vine that was healthy. Hard to treat once inside the stem. Prevention: row cover through flowering (then remove for pollination), or wrap stem base with foil as a physical barrier.
+
+---
+
+## Powdery mildew (squash)
+
+### About
+
+Caused by *Podosphaera xanthii* or *Erysiphe cichoracearum* — the most common fungal problem on cucurbits. Appears as white powdery coating on upper leaf surfaces, spreading outward from older leaves. Thrives in warm days + cool nights + low humidity (unlike downy mildew which needs wet conditions). Spreads by airborne spores. Won't kill the plant outright but reduces photosynthesis and yield; severe late-season cases can cause premature senescence.
+
+### Control protocol
+
+**Step 1 — remove the worst leaves immediately.**
+Any leaf >50% covered: cut at the stem, bag, and trash. Do not compost — that spreads spores. Focus remaining leaves on healthy younger growth.
+
+**Step 2 — spray treatment (every 7 days, 2–3 rounds).**
+Pick one; rotate if resistance appears:
+- **Potassium bicarbonate** (Monterey Bi-Carb or similar) — most effective organic option; kills spores on contact by disrupting surface pH. Mix per label (~1 tbsp/gallon). Preferred first choice.
+- **Baking soda spray** — 1 tbsp baking soda + 1 tsp dish soap per gallon water. More accessible, slightly less effective.
+- **Neem oil** — broad-spectrum; also suppresses other fungal issues. Apply in the evening to avoid leaf burn.
+- **Diluted milk** — 40% whole milk / 60% water; weekly application has research support.
+
+Apply in morning or evening (not midday). Coat both leaf surfaces, especially tops where mildew grows.
+
+**Step 3 — cultural controls.**
+- Water at the base only; wet foliage accelerates spread.
+- Thin crowded interior leaves to improve airflow.
+- Hold off on high-nitrogen fertilizer — it drives soft new growth that mildew colonizes fastest.
+
+**What to protect:** healthy young leaves and developing fruit. Older already-infected leaves are mostly lost — don't waste effort trying to cure them.
+
+### 2026 observations
+
+| Date | Location | Severity | Notes |
+|------|----------|----------|-------|
+| 2026-06-28 | Spaghetti squash (front right) | Moderate–heavy | White powdery coating on multiple older leaves; spread visible across several leaves. Photo uploaded 2026-06-28. Action: remove worst leaves, begin potassium bicarbonate or neem oil spray rounds every 7 days. |
+
+*(Add rows as season progresses — record which treatment was used and whether new growth stayed clean.)*
