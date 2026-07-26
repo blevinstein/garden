@@ -148,3 +148,54 @@ Apply in morning or evening (not midday). Coat both leaf surfaces, especially to
 | 2026-06-28 | Spaghetti squash (front right) | Moderate–heavy | White powdery coating on multiple older leaves; spread visible across several leaves. Photo uploaded 2026-06-28. Action: remove worst leaves, begin potassium bicarbonate or neem oil spray rounds every 7 days. |
 
 *(Add rows as season progresses — record which treatment was used and whether new growth stayed clean.)*
+
+---
+
+## Squash bugs (*Anasa tristis*)
+
+### About
+
+Common cucurbit pest, especially on winter squash and pumpkins. Adults are ~5/8" long, flat-backed, brown-gray, shield-shaped; they overwinter as adults under mulch, debris, and old vines and emerge in late spring. Females lay tidy clusters of small bronze/copper football-shaped eggs on leaf undersides — typically at vein junctions. Nymphs hatch dark and spiky, cluster together in early instars, and lighten toward gray as they mature.
+
+Feeding: pierce stems and leaves and inject saliva, causing wilting ("anasa wilt"), yellow stippling, leaf necrosis, and pitted rust-colored spots on fruit rinds. Heavy infestations can kill vines outright. Also vector cucurbit yellow vine disease. Peak damage July–August. Populations multiply fast — catching egg clusters early is much easier than fighting nymphs and adults later.
+
+### Plants at risk in this yard
+
+- **Spaghetti squash (front right)** — currently infested (see observations)
+- Any future summer squash, zucchini, pumpkins, or winter squash
+
+### Control protocol
+
+**Step 1 — destroy egg clusters (highest leverage).**
+Scout leaf undersides every 2–3 days. Scrape bronze egg clusters off with a fingernail or lift them with duct tape and destroy. Every cluster removed is 15–40 nymphs prevented. Do this before anything else.
+
+**Step 2 — hand-pick adults and nymphs.**
+Early morning when they are sluggish. Drop into a jar of soapy water. Check stem bases, leaf undersides, and under mulch. **Board trap:** lay a small board or shingle on the soil next to the vine at night; adults congregate underneath. Flip in the morning and scrape them into soapy water.
+
+**Step 3 — spray treatment (target nymphs, every 5–7 days).**
+Nymphs are vulnerable to contact sprays; adults are largely resistant because of their tough exoskeleton — do not expect sprays to solve an adult problem.
+- **Insecticidal soap** — coat nymphs directly on leaf undersides. Contact-kill only; reapply as new hatches emerge.
+- **Neem oil** — mild contact kill plus some adult deterrence. Apply in the evening to avoid leaf burn. Bonus: also suppresses the powdery mildew already active on this plant.
+- **Pyrethrin** — fast knockdown for heavy nymph clusters; short residual, follow-up needed.
+
+Skip spinosad — not effective on true bugs (Hemiptera).
+
+**Step 4 — end-of-season sanitation (critical).**
+Squash bugs overwinter as adults under garden debris and mulch. After the last harvest from the spaghetti squash:
+- Pull and bag all squash vines (do not compost).
+- Rake and remove mulch immediately around the squash bed.
+- Rotate cucurbits to a different bed in 2027 if feasible.
+
+Skipping this step is how a moderate infestation this year becomes a severe one next year.
+
+**What to avoid:**
+- Carbaryl (Sevin) on flowering squash — kills bees needed for pollination.
+- Broad-spectrum insecticides in general — tachinid flies and parasitic wasps parasitize squash bug eggs and adults; preserve them.
+
+### 2026 observations
+
+| Date | Location | Severity | Notes |
+|------|----------|----------|-------|
+| 2026-07-26 | Spaghetti squash (front right) | Moderate | Bronze egg cluster on leaf underside at vein junction; cluster of dark spiky early-instar nymphs on a separate yellowing/necrotic leaf; adult squash bug on stem near a fruit; pitted rust-colored spots on developing fruit skin. Photos uploaded 2026-07-26. Action: scrape and destroy all visible egg clusters, hand-pick adults/nymphs into soapy water, begin insecticidal soap or neem oil rounds on nymphs every 5–7 days, plan end-of-season sanitation. |
+
+*(Add rows as season progresses — note egg-cluster scouting cadence, hand-pick counts, and which spray was used.)*
