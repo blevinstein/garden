@@ -50,6 +50,7 @@
 - **Zone 3 wind-down:** Once onions are out and temps moderate (~late August), reduce Zone 3 run time 10–15 min. Keep Zone 4 stable while tomato/peppers are fruiting.
 - **FS1 fall planning:** After onion harvest, decide on fall replant (garlic for overwintering? cover crop?) before soil sits bare.
 - **Peach/cherry:** Watch for harvest timing; cherry often ripens first. Bird protection for cherry before fruit fully colors.
+- **English oak (front) — drought recovery:** Yard sprinklers alone aren't cutting it (drought scorch across upper canopy — see [`observations/2026-08-06-english-oak.md`](observations/2026-08-06-english-oak.md)). Actions this week: expand mulch ring to 3–4 ft diameter × 3–4" deep wood chips (pulled back 1–2" from the trunk); smother the turf inside the ring with cardboard under the chips (no digging, no herbicide near the roots); start weekly deep soaks at the drip line (45–60 min slow trickle, or ~2 hrs on a soaker hose). Do **not** prune scorched wood yet — reassess at 2027 spring leaf-out. Check stake ties; remove if the root ball no longer rocks. Late-August check: is scorch expanding onto currently-green foliage? If yes, go to two deep soaks per week.
 
 ## Early September 2026
 
@@ -57,6 +58,7 @@
 - **Greenhouse:** Sweet potato harvest prep before frost; begin tapering Zone 4. Tomato and peppers should still be producing.
 - **Succession peas (front left):** Should be filling pods if sown late July.
 - **Row cover:** Re-cover FS2 (Brussels) and PS1 (strawberries) before first frost (~mid-October); have covers ready.
+- **English oak:** Continue weekly deep soaks through warm weather. Plan one final deep soak before ground freezes (~mid-November) and monthly winter watering during dry Jan–Feb spells with no snow cover. Spring 2027 leaf-out is the decision point for pruning / keep-vs-replace — see [`observations/2026-08-06-english-oak.md`](observations/2026-08-06-english-oak.md).
 
 ---
 

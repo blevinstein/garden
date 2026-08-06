@@ -22,6 +22,11 @@ All season content lives under **`<YYYY>/`** where `<YYYY>` is the calendar year
   PESTS.md          # Pest observations and control protocols (dated log + perennial reference)
   WEATHER.md        # Significant weather events with sources; correlate with crop outcomes
   SCHEDULE.md       # Rolling ~3-month task schedule (regenerated; dated header)
+  observations/
+    README.md       # Pattern + what belongs here vs. PESTS/WEATHER/SCHEDULE
+    YYYY-MM-DD-*.md # One dated field note per file; links to photos in ../photos/
+  photos/
+    YYYY-MM-DD-*.* # Dated photos referenced from observations and schedule
   layout/
     README.md       # Units, north-arrow policy, grid spacing, how files relate
     interior-*.md   # One ASCII file per raised bed + greenhouse: interior dims + plant grid
@@ -59,6 +64,13 @@ Should state or link:
 - **What stays in `CARE.md`:** Brief per-plant pest notes (e.g. "inspect Brussels for cabbage worms weekly") and cross-references to `PESTS.md`. Don't duplicate full protocols in both files.
 - **What goes in `SCHEDULE.md`:** Time-sensitive tasks ("apply Nolo Bait this week", "check cherry for aphids"). Link to `PESTS.md` for the protocol detail.
 - **Cross-season pattern:** If a pest is observed consistently across years, note it under the perennial pest section with a year-tagged row in the observation table. This makes it easy to see whether populations are earlier, later, or more severe than prior years.
+
+## Observations (`observations/`)
+
+- **Purpose:** Dated field notes about a specific plant or bed on a specific day — problems noticed, actions taken or planned, next check-in. One file per observation, named `YYYY-MM-DD-<subject>.md`. Photos live in `photos/` and are referenced by relative link.
+- **Scope:** Keep the note narrow and factual. If an observation forces a change, cross-link to (and update) the affected canonical file: `PLAN.md` decisions log or open questions, `CARE.md` sections, `SCHEDULE.md` near-term tasks. Don't restate the plan here.
+- **What belongs elsewhere:** Pest sightings tied to the perennial pest log → `PESTS.md`. Weather events themselves → `WEATHER.md` (an observation of a plant's *response* to weather can live here and link to the weather entry).
+- **Longevity:** Observations are historical — leave old files in place rather than editing them; write a new dated file for a follow-up.
 
 ## Schedule (`SCHEDULE.md`)
 

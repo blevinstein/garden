@@ -18,6 +18,7 @@ All season content lives under `<YYYY>/` (e.g. `2026/`). The current season is `
 - [`2026/PESTS.md`](2026/PESTS.md) — pest observations and control protocols (dated log + perennial reference).
 - [`2026/WEATHER.md`](2026/WEATHER.md) — significant weather events with sources; correlate with crop outcomes.
 - [`2026/SCHEDULE.md`](2026/SCHEDULE.md) — rolling ~3-month task schedule (regenerated; dated header).
+- [`2026/observations/`](2026/observations/) — dated field notes (`YYYY-MM-DD-<subject>.md`) with photos; cross-link to the canonical file when an observation forces a change. See the folder's `README.md`.
 - `2026/layout/` — one ASCII file per bed/greenhouse plus `beds-legend.md`; `sketches/` holds source rasters (do not delete).
 
 ## Working conventions
