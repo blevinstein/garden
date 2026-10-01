@@ -117,6 +117,16 @@ FS1 is the only uncovered bed this year. FS2, PS1, and PS2 are all covered.
 - **Hops:** vigorous perennial vine — strong fence/trellis; annual cutback in late winter; water through establishment and during peak growth. Expect most vigor in its 2nd–3rd year.  
 - **Peas:** cool-season; trellis support; direct sow early spring and again late summer for fall if you want succession. Keep soil consistently moist during flowering and pod fill.
 
+#### Hops harvest and processing
+
+- **When:** Begin checking cones in late August; Denver harvest will usually fall from late August through September, depending on variety and weather. Cones on one plant may ripen at different times, so harvest in two or more passes rather than by date alone. Harvest on a dry day after dew has evaporated.
+- **What to look for:** A ripe cone feels light, dry, and papery; springs back after a gentle squeeze; and may show slight browning at the bract tips. Split one lengthwise: the lupulin glands should be abundant, golden yellow, sticky, and strongly aromatic. Leave cones that are soft, damp, uniformly green, grassy-smelling, or slow to spring back. Pick promptly if cones turn brown, brittle, or onion/garlic-like in aroma.
+- **How to harvest:** Wear gloves and long sleeves because the bines are abrasive. For a small harvest, snip or twist off individual ripe cones while leaving the bine and foliage in place. If taking the whole mature bine at once, cut it only after most cones are ready and leave the bottom 2–3 ft attached until frost so the plant can continue feeding its crown. Harvest newly planted hops lightly, if at all, in their first year.
+- **Use fresh or dry immediately:** Do not wash the cones; shake out insects and discard moldy or badly browned cones. Brew with fresh (“wet”) hops within 24–48 hours and keep them refrigerated until use; by weight, use roughly 4–6 times as much as dried hops. Otherwise, start drying the same day.
+- **Drying:** Spread cones in a single layer on a clean screen in a dark, dry, well-ventilated place, stirring or turning them periodically. A dehydrator with good airflow may be used at about 95–110°F; avoid high heat, sunlight, and ovens that drive off aromatic oils. Dry until the central stem is brittle enough to snap and the bracts feel papery, while the yellow lupulin remains aromatic rather than scorched. This commonly takes about 1–3 days with air drying and several hours in a dehydrator.
+- **Condition and store:** Loosely bag the dried cones for about 24 hours so remaining moisture equalizes; if they soften or feel damp, return them to the dryer. Pack with as little air as possible, label with variety and harvest date, and freeze. Vacuum sealing is best. There is no separate long cure: prompt drying, brief moisture equalization, airtight packing, and freezing preserve quality.
+- **After harvest:** Leave healthy foliage until frost, then cut dead bines back during the normal late-winter cleanup. Do not compost material showing mildew or other disease.
+
 ### Front yard — right (`front-right`)
 
 - Train vining crops on trellis or fence; keep airflow to reduce mildew on cucumbers and squash.  
