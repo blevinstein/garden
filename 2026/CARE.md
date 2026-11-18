@@ -172,7 +172,7 @@ Tree is in excellent health for a 2025 transplant: strong leaf color, no signs o
 
 ### `bed-fs1` — rosemary, onions (uncovered)
 
-- **Rosemary:** uncovered bed — not reliably hardy outdoors on the Front Range. Decide before first hard freeze whether to mulch heavily, dig and pot for indoor overwintering, or treat as an annual.  
+- **Rosemary:** uncovered bed — not reliably hardy outdoors on the Front Range. The 2026 plant died over winter; replant in spring 2027 and decide then whether to mulch heavily, pot indoors, or treat as an annual.  
 - **Onions (37):** full-bed spacing per variety; keep moist through bulb formation, taper watering as tops fall over.
 
 ### `bed-fs2` — Brussels sprouts, onions (covered)
@@ -191,5 +191,6 @@ Tree is in excellent health for a 2025 transplant: strong leaf color, no signs o
 
 ### Indoor herbs (`indoor`)
 
+- **Status (2026-11-18):** all indoor herbs died; ignore for now.  
 - Basil, peppermint, cilantro, parsley, thyme, oregano, sage, cumin, dill — **pots under grow lights**. Watering/fertilizer by pot size and media (not the outdoor drip table). Cumin is normally grown for **seed**; treat like other annual herbs unless you only want leaves.  
 - Oregano is **indoor only** for 2026 — previously considered for outdoor FS1 / FS2.
