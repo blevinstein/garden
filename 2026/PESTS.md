@@ -14,6 +14,7 @@ Current-season task timing goes in [`SCHEDULE.md`](SCHEDULE.md). Long-term care 
 - **Kale and brassicas (PS2, FS2)** — green peach aphid and others; watch undersides of leaves
 - **Hops (front left)** — aphids common on new growth in early season
 - **Peach tree** — monitor at bud break; less severe than cherry but same species range
+- **Cucumber (front right, trellis)** — dense black aphids on growing tips, flowers and a young fruit (see 2026-11-18 observation); same protocol below
 
 ### About black cherry aphids
 
@@ -42,6 +43,7 @@ If ants are observed climbing the trunk, they are farming the aphid colony and a
 | Date | Location | Severity | Notes |
 |------|----------|----------|-------|
 | 2026-06-01 | Cherry bush | Severe | Black cherry aphids on multiple shoot tips; leaves curled and blackened. Developing fruit visible. Photos: `2026/photos/2026-05-31-cherry.jpg` + close-ups uploaded 2026-06-01. Action: prune infested tips, water blast, follow with insecticidal soap/neem oil rounds. |
+| 2026-11-18 | Cucumber (front right) | Heavy | Photo from chat: dense black aphids clustered on new growth, flower buds, open flowers and a small fruit; yellow stippling on older leaves. Action: follow the control protocol above (prune worst tips, water blast, soap/neem rounds). Wash the fruit before eating. |
 
 *(Add rows as season progresses — include date, location, severity 1–5, and whether treatment worked.)*
 
