@@ -69,4 +69,4 @@ Should state or link:
 
 ## Git
 
-Commit and push to main (no review process) after meaningful updates so the plan of record has history.
+Interactive sessions commit and push to main (no review process) after meaningful updates so the plan of record has history. Automated Centaur runs open pull requests instead.

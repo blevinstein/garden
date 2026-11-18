@@ -25,7 +25,14 @@ All season content lives under `<YYYY>/` (e.g. `2026/`). The current season is `
 - **Markdown only** for structured content; tables are fine in `CROPS.md` / `CARE.md`.
 - **Irrigation lives in prose** (`PLAN.md` + `CARE.md`), never in the ASCII layouts — layouts stay focused on plant positions.
 - Follow `CONVENTIONS.md` exactly for where each kind of content belongs; keep the same content in one place and link to it rather than duplicating.
-- **Git:** commit and push to `main` (no review process) after meaningful updates so the plan of record keeps history.
+- **Git:** in interactive sessions, commit and push to `main` (no review process) after meaningful updates so the plan of record keeps history. Automated Centaur runs open pull requests instead (see below).
+
+## Centaur (chat agent)
+
+A chat agent answers questions and runs a weekly Saturday task prompt in the household group chat, through [centaur](https://github.com/blevinstein/centaur) and GitHub Actions. Automated runs never push to `main`: when they change files they open a pull request for review. The agent follows `CONVENTIONS.md` and has file tools only (no shell).
+
+- Config: [`.centaur.yml`](.centaur.yml); persona: [`.centaur/persona.md`](.centaur/persona.md); scheduled prompts: `.centaur/prompts/`.
+- Caller workflow: [`.github/workflows/centaur.yml`](.github/workflows/centaur.yml).
 
 ## Skills
 

@@ -1,0 +1,23 @@
+bot: garden
+platform: telegram
+# Alias for the household group chat; the maintainer registers its ID.
+destination: household
+# Placeholder: add the household member's alias here once they are enrolled.
+allow: [blevinstein]
+respond_to: all
+# PLACEHOLDER: the maintainer sets the bot's real Telegram username (without @).
+handle: garden_bot_placeholder
+context:
+  default: transcript
+  scheduled: fresh
+model: sonnet
+# Cost caps: a Markdown-only repo needs light reasoning and few tool round trips;
+# respond_to: all runs a turn for every message, so keep each run small.
+effort: low
+max_turns: 15
+max_budget_usd: 0.5
+# No shell: the agent edits Markdown and the workflow opens the pull request.
+allowed_tools: "Read,Glob,Grep,Edit,Write"
+persona: .centaur/persona.md
+prompts:
+  weekly-tasks: {}
