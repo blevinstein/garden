@@ -1,4 +1,4 @@
-It is Saturday. Post this week's garden tasks to the household group.
+Post this week's garden tasks to the household group.
 
 1. Take today's date and read `SCHEDULE.md`,
    `CARE.md` and the frost dates in `PLAN.md` in the current season folder (`<YYYY>/`, per CONVENTIONS.md).
