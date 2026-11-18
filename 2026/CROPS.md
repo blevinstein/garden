@@ -16,13 +16,13 @@ Irrigation zone numbers below refer to the named zones in [`PLAN.md`](PLAN.md#ir
 | Bell pepper | — | 3 | `greenhouse` | 4 | Daily drip |
 | Jalapeño | — | 1 | `greenhouse` | 4 | Daily drip |
 | Sweet potato | — | 3 | `greenhouse` | 4 | Spreading; shares 24 sq ft with above |
-| Rosemary | — | 1 | `bed-fs1` | 3 | **Uncovered** bed — overwintering strategy TBD |
+| Rosemary | — | 1 | `bed-fs1` | 3 | **Uncovered** bed — died over winter 2026; replant spring 2027 |
 | Onion (FS1) | — | 37 bulbs | `bed-fs1` | 3 | Full-bed planting with rosemary (7×5 core grid + 2 extras — see `layout/interior-fs1.md`) |
 | Brussels sprout | — | 4 | `bed-fs2` | 3 | Plant mid-June–mid-July for fall harvest |
 | Onion (FS2) | — | 10 bulbs | `bed-fs2` | 3 | Shares FS2 with Brussels sprouts |
 | Kale | — | 6 | `bed-ps2` | 3 | Row cover in-season |
 | Lemon balm | — | 1–2 | `bed-ps2` | 3 | Can spread; contain or harvest aggressively |
-| Strawberry | — | 6 | `bed-ps1` | 3 | Row cover in-season (highest priority late Mar–mid-May) |
+| Strawberry | — | 6 | `bed-ps1` | 3 | Row cover in-season (highest priority late Mar–mid-May). Never established in 2026 (or eaten by dogs) |
 | Basil | — | pot | `indoor` | — | Grow lights |
 | Peppermint | — | pot | `indoor` | — | Grow lights |
 | Cilantro | — | pot | `indoor` | — | Grow lights |
