@@ -1,8 +1,9 @@
 bot: garden
 platform: telegram
-# Alias for the household group chat; the maintainer registers its ID.
-destination: household
-# Placeholder: add the household member's alias here once they are enrolled.
+# Alias for the household group chat (the only chat, so scheduled prompts post here);
+# the maintainer registers its ID with `centaur chat add`.
+chats: [household]
+# Placeholder: add the household member's alias here once they are enrolled (`centaur user add`).
 allow: [blevinstein]
 respond_to: all
 # PLACEHOLDER: the maintainer sets the bot's real Telegram username (without @).
