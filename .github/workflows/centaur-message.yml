@@ -1,0 +1,28 @@
+name: Centaur message
+
+on:
+  repository_dispatch:
+    types: [centaur-message]
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+concurrency:
+  group: centaur-${{ github.event.client_payload.bot }}-${{ github.event.client_payload.thread_id }}
+  cancel-in-progress: false
+
+jobs:
+  turn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: blevinstein/centaur/.github/actions/setup-runtime@experiment/composite-actions
+      - uses: blevinstein/centaur/.github/actions/turn@experiment/composite-actions
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          openrouter_api_key: ${{ secrets.OPENROUTER_API_KEY }}
+      - if: failure()
+        uses: blevinstein/centaur/.github/actions/notify-failure@experiment/composite-actions

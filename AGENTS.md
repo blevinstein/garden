@@ -32,7 +32,7 @@ All season content lives under `<YYYY>/` (e.g. `2026/`). The current season is `
 A chat agent answers questions and runs a weekly Saturday task prompt in the household group chat, through [centaur](https://github.com/blevinstein/centaur) and GitHub Actions. Automated runs never push to `main`: when they change files they open a pull request for review. The agent follows `CONVENTIONS.md` and has file tools only (no shell).
 
 - Config: [`.centaur.yml`](.centaur.yml); persona: [`.centaur/persona.md`](.centaur/persona.md); scheduled prompts: `.centaur/prompts/`.
-- Caller workflow: [`.github/workflows/centaur.yml`](.github/workflows/centaur.yml).
+- Caller workflows: [`centaur-register.yml`](.github/workflows/centaur-register.yml), [`centaur-message.yml`](.github/workflows/centaur-message.yml), [`centaur-weekly-tasks.yml`](.github/workflows/centaur-weekly-tasks.yml).
 
 ## Skills
 
