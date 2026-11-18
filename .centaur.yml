@@ -6,8 +6,7 @@ chats: [household]
 # Placeholder: add the household member's alias here once they are enrolled (`centaur user add`).
 allow: [blevinstein]
 respond_to: all
-# PLACEHOLDER: the maintainer sets the bot's real Telegram username (without @).
-handle: garden_bot_placeholder
+handle: garden_jb_bot
 context:
   default: transcript
   scheduled: fresh
