@@ -10,6 +10,7 @@ handle: garden_bot_placeholder
 context:
   default: transcript
   scheduled: fresh
+provider: anthropic
 model: sonnet
 # Cost caps: a Markdown-only repo needs light reasoning and few tool round trips;
 # respond_to: all runs a turn for every message, so keep each run small.
