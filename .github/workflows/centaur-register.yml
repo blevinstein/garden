@@ -14,7 +14,13 @@ jobs:
   register:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      CENTAUR_ROLE_ARN: ${{ vars.CENTAUR_ROLE_ARN }}
+      CENTAUR_AWS_REGION: ${{ vars.CENTAUR_AWS_REGION }}
+      CENTAUR_FUNCTION_NAME: ${{ vars.CENTAUR_FUNCTION_NAME }}
+      CENTAUR_OIDC_AUDIENCE: ${{ vars.CENTAUR_OIDC_AUDIENCE }}
+      CENTAUR_SESSION_BUCKET: ${{ vars.CENTAUR_SESSION_BUCKET }}
     steps:
       - uses: actions/checkout@v4
-      - uses: blevinstein/centaur/.github/actions/setup-runtime@experiment/composite-actions
-      - uses: blevinstein/centaur/.github/actions/register@experiment/composite-actions
+      - uses: blevinstein/centaur/.github/actions/setup-runtime@main
+      - uses: blevinstein/centaur/.github/actions/register@main

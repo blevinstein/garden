@@ -15,13 +15,19 @@ jobs:
   weekly-tasks:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      CENTAUR_ROLE_ARN: ${{ vars.CENTAUR_ROLE_ARN }}
+      CENTAUR_AWS_REGION: ${{ vars.CENTAUR_AWS_REGION }}
+      CENTAUR_FUNCTION_NAME: ${{ vars.CENTAUR_FUNCTION_NAME }}
+      CENTAUR_OIDC_AUDIENCE: ${{ vars.CENTAUR_OIDC_AUDIENCE }}
+      CENTAUR_SESSION_BUCKET: ${{ vars.CENTAUR_SESSION_BUCKET }}
     steps:
       - uses: actions/checkout@v4
-      - uses: blevinstein/centaur/.github/actions/setup-runtime@experiment/composite-actions
-      - uses: blevinstein/centaur/.github/actions/turn@experiment/composite-actions
+      - uses: blevinstein/centaur/.github/actions/setup-runtime@main
+      - uses: blevinstein/centaur/.github/actions/turn@main
         with:
           prompt_name: weekly-tasks
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           openrouter_api_key: ${{ secrets.OPENROUTER_API_KEY }}
       - if: failure()
-        uses: blevinstein/centaur/.github/actions/notify-failure@experiment/composite-actions
+        uses: blevinstein/centaur/.github/actions/notify-failure@main
