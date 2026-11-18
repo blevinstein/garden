@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: centaur-${{ github.event.client_payload.bot }}-${{ github.event.client_payload.thread_id }}
+  group: centaur-${{ github.event.client_payload.bot }}-${{ github.event.client_payload.thread_key }}
   cancel-in-progress: false
 
 jobs:
