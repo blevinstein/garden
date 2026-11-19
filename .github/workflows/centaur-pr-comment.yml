@@ -1,0 +1,82 @@
+name: Centaur PR comment
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: read
+
+jobs:
+  resolve:
+    if: >-
+      github.event.sender.type != 'Bot'
+      && (github.event_name != 'issue_comment' || github.event.issue.pull_request)
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.resolve.outputs.skip }}
+      bot: ${{ steps.resolve.outputs.bot }}
+      thread_key: ${{ steps.resolve.outputs.thread_key }}
+      head_ref: ${{ steps.resolve.outputs.head_ref }}
+      pull_request: ${{ steps.resolve.outputs.pull_request }}
+    permissions:
+      contents: read
+      pull-requests: read
+      id-token: write
+    env:
+      CENTAUR_ROLE_ARN: ${{ vars.CENTAUR_ROLE_ARN }}
+      CENTAUR_AWS_REGION: ${{ vars.CENTAUR_AWS_REGION }}
+      CENTAUR_FUNCTION_NAME: ${{ vars.CENTAUR_FUNCTION_NAME }}
+      CENTAUR_OIDC_AUDIENCE: ${{ vars.CENTAUR_OIDC_AUDIENCE }}
+      CENTAUR_SESSION_BUCKET: ${{ vars.CENTAUR_SESSION_BUCKET }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: blevinstein/centaur/.github/actions/setup-runtime@main
+      - id: resolve
+        uses: blevinstein/centaur/.github/actions/resolve-pr-comment@main
+
+  turn:
+    needs: resolve
+    if: needs.resolve.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    concurrency:
+      group: centaur-${{ needs.resolve.outputs.bot }}-${{ needs.resolve.outputs.thread_key }}
+      cancel-in-progress: false
+    env:
+      CENTAUR_ROLE_ARN: ${{ vars.CENTAUR_ROLE_ARN }}
+      CENTAUR_AWS_REGION: ${{ vars.CENTAUR_AWS_REGION }}
+      CENTAUR_FUNCTION_NAME: ${{ vars.CENTAUR_FUNCTION_NAME }}
+      CENTAUR_OIDC_AUDIENCE: ${{ vars.CENTAUR_OIDC_AUDIENCE }}
+      CENTAUR_SESSION_BUCKET: ${{ vars.CENTAUR_SESSION_BUCKET }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ needs.resolve.outputs.head_ref }}
+          persist-credentials: true
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          path: .centaur-trusted
+          persist-credentials: false
+      - name: Keep the trusted checkout out of git status
+        run: echo .centaur-trusted >> .git/info/exclude
+      - uses: blevinstein/centaur/.github/actions/setup-runtime@main
+      - uses: blevinstein/centaur/.github/actions/turn@main
+        with:
+          comment: ${{ needs.resolve.outputs.pull_request }}
+          config_root: ${{ github.workspace }}/.centaur-trusted
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          openrouter_api_key: ${{ secrets.OPENROUTER_API_KEY }}
+      - if: failure()
+        uses: blevinstein/centaur/.github/actions/notify-failure@main
+        with:
+          comment: ${{ needs.resolve.outputs.pull_request }}
