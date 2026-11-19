@@ -24,7 +24,7 @@ jobs:
       CENTAUR_OIDC_AUDIENCE: ${{ vars.CENTAUR_OIDC_AUDIENCE }}
       CENTAUR_SESSION_BUCKET: ${{ vars.CENTAUR_SESSION_BUCKET }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: blevinstein/centaur/.github/actions/setup-runtime@main
       - uses: blevinstein/centaur/.github/actions/turn@main
         with:
