@@ -13,3 +13,5 @@ allowed_tools: "Read,Glob,Grep,Edit,Write"
 prompts:
   weekly-tasks:
     destination: household
+  pr-smoke:
+    destination: household

@@ -26,7 +26,7 @@ jobs:
       - uses: blevinstein/centaur/.github/actions/setup-runtime@main
       - uses: blevinstein/centaur/.github/actions/turn@main
         with:
-          prompt_name: weekly-tasks
+          prompt_name: pr-smoke
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           openrouter_api_key: ${{ secrets.OPENROUTER_API_KEY }}
       - if: failure()
