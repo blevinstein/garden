@@ -1,1 +1,1 @@
-This file is a pull request smoke test.
+This file is a pull request smoke test. The review comment was received.
