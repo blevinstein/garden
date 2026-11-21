@@ -12,4 +12,4 @@ max_budget_usd: 0.5
 allowed_tools: "Read,Glob,Grep,Edit,Write"
 prompts:
   weekly-tasks:
-    destination: household
+    destination: garden-jb
