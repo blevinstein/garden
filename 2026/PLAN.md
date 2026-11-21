@@ -179,6 +179,7 @@ Seasonal tuning, stress signals, and adjustment rules live in [`CARE.md` → Irr
 - **2026-04-19:** Migrated per-bed layouts from SVG to ASCII (6" grid). Per-bed plant positions are now in [`layout/interior-*.md`](layout/); SVGs and `beds-preview.png` removed. Drip tubing/emitter geometry is no longer stored in layouts — it lives here in `PLAN.md` and in [`CARE.md`](CARE.md).
 - **2026-05-05–06:** Late hard freeze — lows 22–28°F, 5–7" snow along I-25. Row covers were on PS1/PS2/FS2. Strawberry flower damage likely (kill threshold ≤28°F; row cover provides only ~4–6°F protection). See [`WEATHER.md`](WEATHER.md) for sources and full garden impact assessment.  
 - **2026-11-18:** Winterization completed. Rosemary (FS1) died — replant next spring. Indoor herbs died — ignore for now. Strawberries (PS1) never established (or were eaten by the dogs).  
+- **2026-11-21:** End-of-season status. **Irrigation** for Zones 1–6 was shut down for the winter around **2026-10-16** (approximate, per the household). Brussels sprouts (FS2) died. Greenhouse has only pepper plants left, expected to die soon.  
 
 ## Open questions
 

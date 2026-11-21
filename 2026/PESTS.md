@@ -44,6 +44,7 @@ If ants are observed climbing the trunk, they are farming the aphid colony and a
 |------|----------|----------|-------|
 | 2026-06-01 | Cherry bush | Severe | Black cherry aphids on multiple shoot tips; leaves curled and blackened. Developing fruit visible. Photos: `2026/photos/2026-05-31-cherry.jpg` + close-ups uploaded 2026-06-01. Action: prune infested tips, water blast, follow with insecticidal soap/neem oil rounds. |
 | 2026-11-18 | Cucumber (front right) | Heavy | Photo from chat: dense black aphids clustered on new growth, flower buds, open flowers and a small fruit; yellow stippling on older leaves. Action: follow the control protocol above (prune worst tips, water blast, soap/neem rounds). Wash the fruit before eating. |
+| 2026-11-21 | All beds / greenhouse | None | Aphids appear to be gone (household report). No peach leaf curl observed. |
 
 *(Add rows as season progresses — include date, location, severity 1–5, and whether treatment worked.)*
 
