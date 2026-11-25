@@ -6,6 +6,8 @@ platforms:
   slack:
     respond_to: all
     handle: garden
+chat_tools:
+  scope: chat
 provider: anthropic
 model: sonnet
 # Cost caps: respond_to: all runs a turn for every message, and a Markdown-only repo needs
