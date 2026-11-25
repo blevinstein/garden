@@ -2,3 +2,6 @@
 
 # Raster previews generated for review (ImageMagick, etc.)
 **/layout/*-preview.png
+
+# Slack app manifest holds the receiver URL; keep it local.
+.centaur/slack-app-manifest.yml

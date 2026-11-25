@@ -3,7 +3,7 @@ name: Centaur register
 on:
   push:
     branches: [main]
-    paths: [.centaur.yml]
+    paths: [.centaur.yml, .centaur/config.yml]
   workflow_dispatch:
 
 permissions:

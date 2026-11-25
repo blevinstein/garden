@@ -3,6 +3,7 @@ platforms:
   telegram:
     respond_to: all
     handle: garden_jb_bot
+  slack: {}
 provider: anthropic
 model: sonnet
 # Cost caps: respond_to: all runs a turn for every message, and a Markdown-only repo needs
@@ -13,4 +14,4 @@ max_budget_usd: 0.5
 allowed_tools: "Read,Glob,Grep,Edit,Write"
 prompts:
   weekly-tasks:
-    destination: garden-jb
+    destination: { telegram: garden-jb }
