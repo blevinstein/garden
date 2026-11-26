@@ -2,10 +2,8 @@ bot: garden
 platforms:
   telegram:
     respond_to: all
-    handle: garden_jb_bot
   slack:
     respond_to: all
-    handle: garden
 chat_tools:
   scope: chat
 provider: anthropic
